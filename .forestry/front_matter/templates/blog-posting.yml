@@ -16,4 +16,5 @@ fields:
   label: Tag
   name: tag
 pages:
+- index.md
 - _posts/2018-07-28-langkah-pertama-menuju-machine-learning-edisi-praktisi.md
