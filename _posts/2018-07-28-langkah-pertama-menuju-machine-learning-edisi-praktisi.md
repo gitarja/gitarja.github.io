@@ -54,14 +54,16 @@ Setelah buat project, kita buat Phyton file baru
 
 Ok bisa langsung dicoba untuk script dibawah ini (saya anjurkan untuk ketik ulang agar paham setiap barisnya)
 
-    import numpy as np
+{% highlight python %}
+import numpy as np
+import matplotlib.pyplot as plt
 
-    import matplotlib.pyplot as plt
+x = np.arange(-1, 1, 0.05)
+y = np.cos(x)
 
-    x = np.arange(-1, 1, 0.05)
-    y = np.cos(x)
-    plt.plot(x, y)
-    plt.show()
+plt.plot(x, y)
+plt.show()
+{% endhighlight %}
 
 ![](/assets/graph.png)
 
