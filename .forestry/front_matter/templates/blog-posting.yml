@@ -15,3 +15,5 @@ fields:
 - type: tag_list
   label: Tag
   name: tag
+pages:
+- _posts/langkah-pertama-menuju-machine-learning-edisi-praktisi.md
