@@ -1,0 +1,17 @@
+---
+label: Blog Posting
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: ttitle
+  label: Title
+  description: Title of the blog
+- type: text
+  default: SUB TITLE
+- type: file
+  name: banner_post
+  label: Banner Post
+- type: tag_list
+  label: Tag
+  name: tag
