@@ -7,9 +7,8 @@ banner_post: ''
 tag: []
 
 ---
-
 Nah dipostingan ini saya akan bahas tentang Simple Linear Regression. Simple Linear Regression merupakan salah satu  algoritma supervised, dengan kata lain algoritma ini belajar berdasarkan contoh pada data yang tersedia. Simple Linear Regression dapat memodelkan permasalahan hubungan linear antara sebuah input dan output.
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $latex a $ dan $latex b $ akan didapatkan dari proses learning atau training.
 
-\$$a^2 + b^2 = c^2$$
+$$a^2 + b^2 = c^2$$
