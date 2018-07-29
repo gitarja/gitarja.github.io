@@ -11,9 +11,9 @@ Nah dipostingan ini saya akan bahas tentang Simple Linear Regression. Simple Lin
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $$a$$ dan $$b$$ akan didapatkan dari proses learning atau training.
 
-$\begin{align}xb + a = y\end{align}$
+$$\begin{align}xb + a = y\end{align}$$
 
-$x = input \\ y = output \\ b = gradient \\ a = konstanta$
+$$x = input \\ y = output \\ b = gradient \\ a = konstanta$$
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $a$ dan $b$ akan didapatkan dari proses learning atau training.
 
