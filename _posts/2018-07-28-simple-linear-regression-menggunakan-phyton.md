@@ -39,21 +39,21 @@ Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah meng
 
 * Hitung nilai rata - rata x dan y
 
-  \$$bar{x} = \\frac{\\sum\\limits_{i=1}^{N} x_i}{N}$$
+ \$$\\[\\bar{x} = \\frac{\\sum\\limits_{i=1}_{N} x_i}{N} //]$$
 
-  \$$\\bar{y} = \\frac{\\sum\\limits_{i=1}^{N} y_i}{N}$$
+ \$$\\bar{y} = \\frac{\\sum\\limits_{i=1}^{N} y_i}{N}$$
 * Hitung varince data
 
-  \$$var(x) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})}{N-1}$$
+ \$$var(x) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})}{N-1}$$
 * Hitung covariance data
 
-  \$$cov(x, y) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})(y_i - \\bar{y})}{N-1}$$
+ \$$cov(x, y) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})(y_i-\\bar{y})}{N-1}$$
 * Hitung nilai $$b$$  
 
-  \$$b = \\frac{cov(x, y)}{var(x)}$$
+ \$$b = \\frac{cov(x, y)}{var(x)}$$
 * Hitung nilai $$a$$
 
-  \$$a = \\bar{y} - b \\bar{x}$$
+ \$$a = \\bar{y} - b \\bar{x}$$
 
   ## Implementasi Proses Training Menggunakan Pyhton
 
