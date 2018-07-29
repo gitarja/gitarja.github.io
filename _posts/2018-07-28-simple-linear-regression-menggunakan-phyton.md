@@ -15,7 +15,7 @@ $xb + a = y$
 
 $x = input \\ y = output \\ b = gradient \\ a = konstanta$
 
-Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $latex a $ dan $latex b $ akan didapatkan dari proses learning atau training.
+Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $a$ dan $b$ akan didapatkan dari proses learning atau training.
 
 ## Contoh Permasalahan Simple Linear Regression
 
