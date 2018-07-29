@@ -11,9 +11,9 @@ Nah dipostingan ini saya akan bahas tentang Simple Linear Regression. Simple Lin
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $$a$$ dan $$b$$ akan didapatkan dari proses learning atau training.
 
-$$xb + a = y$$
+\$$xb + a = y$$
 
-$x = input \\ y = output \\ b = gradient \\ a = konstanta$
+\$x = input \\ y = output \\ b = gradient \\ a = konstanta$
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $a$ dan $b$ akan didapatkan dari proses learning atau training.
 
@@ -38,27 +38,101 @@ Contoh:
 Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah menghitung nilai a dan b, hal tersebut dapat diselesaikan dalam lima tahap dibawah ini:
 
 * Hitung nilai rata - rata x dan y
- 
- $$\bar{x} = \frac{\sum\limits_{i=1}^{N} x_i}{N}$$
- 
- $$\bar{y} = \frac{\sum\limits_{i=1}^{N} y_i}{N}$$
- 
- * Hitung varince data
- 
- $$var(x) = \frac{\sum\limits_{i=1}^{N} (x_i - \bar{x})}{N-1}$$
- 
- * Hitung covariance data
- 
- $$cov(x, y) = \frac{\sum\limits_{i=1}^{N} (x_i - \bar{x})(y_i - \bar{y})}{N-1}$$
- 
- * Hitung nilai $b$
- 
- $$b = \frac{cov(x, y)}{var(x)}$$
- 
- * Hitung nilai $a$
- 
- $$a = \bar{y} - b \bar{x}$$
 
-  ## Implementasi Proses Training Menggunakan Pyhton
+\$$\\bar{x} = \\frac{\\sum\\limits_{i=1}^{N} x_i}{N}$$
 
-  Dalam implementasi ini saya menggunakan dua library pada Pyhton [pandas ](http://pandas.pydata.org/pandas-docs/stable/index.html)dan [numpy](http://www.numpy.org/). Pandas saya gunakan untuk mebaca file csv pada file Data/data.csv dan mengkonversinya menjadi [DataFrame  ](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)dan numpy saya gunakan untuk melakukan perhitungan statistik data. Oh ia, untuk membaca file csv pada pyhton banyak alternatif lainnya seperti menggunakan [module csv](https://docs.python.org/2/library/csv.html) pada phyton.
+\$$\\bar{y} = \\frac{\\sum\\limits_{i=1}^{N} y_i}{N}$$
+
+* Hitung varince data
+
+\$$var(x) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})}{N-1}$$
+
+* Hitung covariance data
+
+\$$cov(x, y) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})(y_i - \\bar{y})}{N-1}$$
+
+* Hitung nilai $b$
+
+\$$b = \\frac{cov(x, y)}{var(x)}$$
+
+* Hitung nilai $a$
+
+\$$a = \\bar{y} - b \\bar{x}$$
+
+## Implementasi Proses Training Menggunakan Pyhton
+
+Dalam implementasi ini saya menggunakan dua library pada Pyhton [pandas ](http://pandas.pydata.org/pandas-docs/stable/index.html)dan [numpy](http://www.numpy.org/). Pandas saya gunakan untuk mebaca file csv pada file Data/data.csv dan mengkonversinya menjadi [DataFrame  ](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)dan numpy saya gunakan untuk melakukan perhitungan statistik data. Oh ia, untuk membaca file csv pada pyhton banyak alternatif lainnya seperti menggunakan [module csv](https://docs.python.org/2/library/csv.html) pada phyton.
+
+{% highlight python %}
+#import library pandas dan inisialisasikan menjadi pd
+import pandas as pd
+#import library numpy dan inisialisasikan menjadi np
+import numpy as np
+
+#baca data pada file data.csv dalam folder Data menggunakan pandas
+data = pd.read_csv('Data/data.csv')
+
+#assign nilai X (Jumlah Klaim) pada variable x
+x = data.X.values
+
+#assign nilai Y (Total Pembayaran) pada variable y
+y = data.Y.values
+
+#Bagi data menjadi 2 bagian untuk train dan untuk test
+
+#ambil nilai x dari urutan pertama hingga 10 terakhir (108 - 13)
+x_train = x[:-10]
+#ambil nilai y dari urutan pertama hingga 10 terakhir (392.5 - 31.9)
+y_train = y[:-10]
+
+
+#ambil 10 data terakhir dari x
+x_test = x[-10:]
+#ambil 10 data terakhir dari y
+y_test = y[-10:]
+
+#hitung nilai rata-rata x dan y
+x_mean = np.mean(x_train)
+y_mean = np.mean(y_train)
+
+
+#hitung variance x
+x_var = np.var(x_train, ddof=1)
+
+#hitung covariance data
+cov = np.cov(np.vstack((x_train, y_train)), ddof=1)[0][1]
+
+#hitung nilai b
+b = cov / x_var
+#hitung nilai a
+a = y_mean - (b * x_mean)
+{% endhighlight %}
+
+## Proses Testing Simple Linear Regression
+Jika pada proses training kita melakukan perhitungan untuk mencari nilai $latex a $ dan $latex b $ pada model. Pada proses testing hal yang akan kita lakukan adalah melakukan prediksi dengan menghitung nilai y
+
+\$$y  = xb + a$$
+
+## Implementasi Proses Testing Menggunakan Pyhton
+Dalam implementasi ini kita akan menggunkan nilai 10 terakhir dari nilai x yaitu x_test
+
+{% highlight python %}
+#y = xb + a
+predict = x_test * b + a
+{% endhighlight %}
+
+| x_test | predict |
+|-------|--------|
+| 15 | 64.933 |
+| 8 | 41.553 |
+| 29 | 111.695 |
+| 30 | 115.035 |
+| 24 | 94.994 |
+| 9 | 44.893 |
+| 31 | 118.375 |
+| 14 | 61.593 |
+| 53 | 191.857 |
+| 26 | 101.675 |
+
+## Evaluasi Model
+Setelah melakukan proses training dan testing, hal terakhir yang harus kita lakukan adalah mengevaluasi model. Apakah model kita sudah sesuai dengan data yang ada? Dalam proses evaluasi ini saya akan menggunakan formula Root Mean Square Error atau disingkat RMSE
