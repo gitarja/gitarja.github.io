@@ -136,5 +136,3 @@ predict = x_test * b + a
 
 ## Evaluasi Model
 Setelah melakukan proses training dan testing, hal terakhir yang harus kita lakukan adalah mengevaluasi model. Apakah model kita sudah sesuai dengan data yang ada? Dalam proses evaluasi ini saya akan menggunakan formula Root Mean Square Error atau disingkat RMSE
-
-$$RMSE = \sqrt{\frac{{\sum\limits_{i=1}^{N}\hat{y}_i - y_i)^2}N}}$$
