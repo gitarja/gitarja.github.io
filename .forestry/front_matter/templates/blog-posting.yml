@@ -17,6 +17,6 @@ fields:
   name: tag
 pages:
 - _posts/2018-07-28-machine-learning-online-course.md
+- _posts/2018-07-28-simple-linear-regression-menggunakan-phyton.md
 - index.md
-- _posts/simple-linear-regression-menggunakan-phyton.md
 - _posts/2018-07-28-langkah-pertama-menuju-machine-learning-edisi-praktisi.md
