@@ -11,9 +11,9 @@ Nah dipostingan ini saya akan bahas tentang Simple Linear Regression. Simple Lin
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $$a$$ dan $$b$$ akan didapatkan dari proses learning atau training.
 
-\$$xb + a = y$$
+$xb + a = y$
 
-\$$x = input \\\\ y = output \\\\ b = gradient \\\\ a = konstanta $$
+$x = input \\ y = output \\ b = gradient \\ a = konstanta$
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $latex a $ dan $latex b $ akan didapatkan dari proses learning atau training.
 
@@ -39,8 +39,8 @@ Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah meng
 
 * Hitung nilai rata - rata x dan y
 
- \$$ \bar{x} = \frac{\sum\limits_{i=1}_{N} x_i}{N} $$
- \$$ \bar{y} = \frac{\sum\limits_{i=1}^{N} y_i}{N}$$
+ $\bar{x} = \frac{\sum\limits_{i=1}_{N} x_i}{N}$
+$\bar{y} = \frac{\sum\limits_{i=1}^{N} y_i}{N}$
 * Hitung varince data
 
  \$$var(x) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})}{N-1}$$
