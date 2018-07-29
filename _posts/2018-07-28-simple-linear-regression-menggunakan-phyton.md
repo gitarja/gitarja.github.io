@@ -40,6 +40,7 @@ Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah meng
 * Hitung nilai rata - rata x dan y
  
  $$\bar{x} = \frac{\sum\limits_{i=1}^{N} x_i}{N}$$
+ 
  $$\bar{y} = \frac{\sum\limits_{i=1}^{N} y_i}{N}$$
  
  * Hitung varince data
