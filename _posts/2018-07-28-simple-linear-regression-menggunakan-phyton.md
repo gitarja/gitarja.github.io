@@ -153,4 +153,4 @@ Dimana $\hat{y}$ adalah nilai prediksi model dan $y$ adalah nilai yang seharusny
 | 14 | 61.5939 | 95.5 | 1149.623703 |
 | 53 | 191.8576 | 244.6 | 2781.765019 |
 | 26 | 101.675 | 187.5 | 7365.926308 |
-| RMSE = ||| 56.00016244 |
+| RMSE = >>| 56.00016244 |
