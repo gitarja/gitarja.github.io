@@ -13,4 +13,32 @@ Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus
 
 \$$xb + a = y$$
 
-\$$x = input \\\\ y = output \\\\ b = gradient \\\\ a = konstanta $$  
+\$$x = input \\\\ y = output \\\\ b = gradient \\\\ a = konstanta $$
+
+Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $latex a $ dan $latex b $ akan didapatkan dari proses learning atau training.
+
+## Contoh Permasalahan Simple Linear Regression
+
+Ok langsung saja kita mulai ke contoh kasus. Dalam kasus ini kita akan memodelkan permasalahan mengenai permasalahan asuransi mobil.
+
+Deskripsi data:
+
+* x = Jumlah tuntutan
+* y = Total uang yang dibayarkan untuk seluruh tuntutan
+
+Contoh:
+
+* x = 108 tuntutan
+* y = $392.5 untuk 108 tuntutan
+
+![Penyebaran data](/assets/DataRelation.png "Penyebaran data")
+
+## Proses Training Simple Linear Regression
+
+Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah menghitung nilai a dan b, hal tersebut dapat diselesaikan dalam lima tahap dibawah ini:
+
+* Hitung nilai rata - rata x dan y
+
+  \$$bar{x} = \\frac{\\sum\\limits_{i=1}^{N} x_i}{N}$$
+
+  \$$\\bar{y} = \\frac{\\sum\\limits_{i=1}^{N} y_i}{N}$$
