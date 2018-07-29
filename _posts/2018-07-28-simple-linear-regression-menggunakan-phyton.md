@@ -38,7 +38,7 @@ Contoh:
 Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah menghitung nilai a dan b, hal tersebut dapat diselesaikan dalam lima tahap dibawah ini:
 
 * Hitung nilai rata - rata x dan y
- $\bar{x} = \frac{\sum\limits_{i=1}_{N} x_i}{N}$
+ $\bar{x}$
 
   ## Implementasi Proses Training Menggunakan Pyhton
 
