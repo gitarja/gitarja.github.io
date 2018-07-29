@@ -154,3 +154,93 @@ Dimana $\hat{y}$ adalah nilai prediksi model dan $y$ adalah nilai yang seharusny
 | 53 | 191.8576 | 244.6 | 2781.765019 |
 | 26 | 101.675 | 187.5 | 7365.926308 |
 | RMSE = >>| 56.00016244 |
+
+## Implementasi RMSE pada Pyhton
+
+{% highlight python %}
+#menghitung RMSE model
+RMSE = np.sqrt(np.mean(pow(predict - y_test, 2)))
+{% endhighlight %}
+
+Penjelasan:
+
+* pow(a) = $a ^ 2$
+* np.mean(a) = hitung nilai rata-rata dai vector a
+* np.sqrt(a) = $\sqrt{a}$
+
+## Plot Model
+Ok pada bagian ini, saya akan memplot data bersama dengan model menggunakan library [matplotlib](https://matplotlib.org/) pada python.
+
+{% highlight python %}
+#import library pyplot dari matplotlib dan inisialisasi sebagai plt
+from matplotlib import pyplot as plt
+
+#predict seluruh nilai y untuk seluruh nilai x
+predict_all = (x * b) + a
+
+#plot data y berdasarkan x dengan bentuk circle 
+plt.plot(x, y, 'ro')
+
+#plot data predict_all berdasarkan x 
+plt.plot(x, predict_all)
+
+#definiskan label untuk garis x
+plt.xlabel('Jumlah Tuntutan')
+#definisikan label untuk garis y
+plt.ylabel('Total Pembayaran')
+#tampilkan graph
+plt.show()
+
+{% endhighlight %}
+
+Output:
+
+![Fitting hasil regresi](/assets/DataFitting.png "Penyebaran data")
+
+## Implementasi Linear Regression Menggunakan Sklearn
+
+Sebenarnya untuk memodelkan suatu permasalahan Simple Linear Regression pada phyton, kita dapat menggunakan Sklearn. Dengan menggunakan [Sklearn](http://scikit-learn.org/) kita tidak perlu melakukan coding dari awal, memang lebih praktis tapi perlu diingat bahwa kita perlu memahami tentang cara kerja dari algoritma. Sehingga saya anjurkan untuk melakukan coding dari 0 untuk hal tersebut.
+
+{% highlight python %}
+import pandas as pd
+from matplotlib import pyplot as plt
+from sklearn import linear_model
+import numpy as np
+
+#baca data pada file data.csv dalam folder Data menggunakan pandas
+data = pd.read_csv('Data/data.csv')
+#reshape data x dan y dari bentuk (1 row 63 columns ke 63 rows 1 columns)
+x = data.X.values.reshape(63, 1)
+y = data.Y.values.reshape(63, 1)
+
+#ambil nilai x dari urutan pertama hingga 10 terakhir (108 - 13)
+x_train = x[:-10]
+#ambil nilai y dari urutan pertama hingga 10 terakhir (392.5 - 31.9)
+y_train = y[:-10]
+
+
+#ambil 10 data terakhir dari x
+x_test = x[-10:]
+#ambil 10 data terakhir dari y
+y_test = y[-10:]
+
+smpReg = linear_model.LinearRegression()
+
+
+#train model
+smpReg.fit(x_train, y_train)
+
+#test model
+predict = smpReg.predict(x_test)
+
+#menghitung RMSE model
+RMSE = np.sqrt(np.mean(pow(predict - y_test, 2)))
+
+#plot data dan model
+figure = plt.figure(1)
+plt.plot(x_train, y_train, 'ro')
+plt.plot(x, smpReg.predict(x))
+plt.xlabel('Jumlah Tuntutan')
+plt.ylabel('Total Pembayaran')
+plt.show()
+{% endhighlight %}
