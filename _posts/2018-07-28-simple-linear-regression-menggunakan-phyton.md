@@ -109,7 +109,7 @@ a = y_mean - (b * x_mean)
 {% endhighlight %}
 
 ## Proses Testing Simple Linear Regression
-Jika pada proses training kita melakukan perhitungan untuk mencari nilai $latex a $ dan $latex b $ pada model. Pada proses testing hal yang akan kita lakukan adalah melakukan prediksi dengan menghitung nilai y
+Jika pada proses training kita melakukan perhitungan untuk mencari nilai $a$ dan $b$ pada model. Pada proses testing hal yang akan kita lakukan adalah melakukan prediksi dengan menghitung nilai y
 
 \$$y  = xb + a$$
 
