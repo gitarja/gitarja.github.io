@@ -11,9 +11,9 @@ Nah dipostingan ini saya akan bahas tentang Simple Linear Regression. Simple Lin
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $$a$$ dan $$b$$ akan didapatkan dari proses learning atau training.
 
-\$$xb + a = y$$
+$$xb + a = y$$
 
-\$x = input \\ y = output \\ b = gradient \\ a = konstanta$
+$x = input \\ y = output \\ b = gradient \\ a = konstanta$
 
 Inti dari Simple Linear Regression adalah menyelesaikan permasalahan garis lurus. Dalam pendekatan ini nilai $a$ dan $b$ akan didapatkan dari proses learning atau training.
 
@@ -39,25 +39,25 @@ Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah meng
 
 * Hitung nilai rata - rata x dan y
 
-\$$\\bar{x} = \\frac{\\sum\\limits_{i=1}^{N} x_i}{N}$$
+$$\bar{x} = \frac{\sum\limits_{i=1}^{N} x_i}{N}$$
 
-\$$\\bar{y} = \\frac{\\sum\\limits_{i=1}^{N} y_i}{N}$$
+$$\bar{y} = \frac{\sum\\limits_{i=1}^{N} y_i}{N}$$
 
 * Hitung varince data
 
-\$$var(x) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})}{N-1}$$
+\$$var(x) = \frac{\\sum\\limits_{i=1}^{N} (x_i - \bar{x})}{N-1}$$
 
 * Hitung covariance data
 
-\$$cov(x, y) = \\frac{\\sum\\limits_{i=1}^{N} (x_i - \\bar{x})(y_i - \\bar{y})}{N-1}$$
+\$$cov(x, y) = \frac{\sum\\limits_{i=1}^{N} (x_i - \\bar{x})(y_i - \bar{y})}{N-1}$$
 
 * Hitung nilai $b$
 
-\$$b = \\frac{cov(x, y)}{var(x)}$$
+\$$b = \frac{cov(x, y)}{var(x)}$$
 
 * Hitung nilai $a$
 
-\$$a = \\bar{y} - b \\bar{x}$$
+$$a = \bar{y} - b \bar{x}$$
 
 ## Implementasi Proses Training Menggunakan Pyhton
 
@@ -111,7 +111,7 @@ a = y_mean - (b * x_mean)
 ## Proses Testing Simple Linear Regression
 Jika pada proses training kita melakukan perhitungan untuk mencari nilai $a$ dan $b$ pada model. Pada proses testing hal yang akan kita lakukan adalah melakukan prediksi dengan menghitung nilai y
 
-\$$y  = xb + a$$
+$$y  = xb + a$$
 
 ## Implementasi Proses Testing Menggunakan Pyhton
 Dalam implementasi ini kita akan menggunkan nilai 10 terakhir dari nilai x yaitu x_test
