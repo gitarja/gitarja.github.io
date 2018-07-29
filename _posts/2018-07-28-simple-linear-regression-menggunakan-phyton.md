@@ -45,15 +45,15 @@ $$\bar{y} = \frac{\sum\\limits_{i=1}^{N} y_i}{N}$$
 
 * Hitung varince data
 
-\$$var(x) = \frac{\\sum\\limits_{i=1}^{N} (x_i - \bar{x})}{N-1}$$
+$$var(x) = \frac{\sum\limits_{i=1}^{N} (x_i - \bar{x})}{N-1}$$
 
 * Hitung covariance data
 
-\$$cov(x, y) = \frac{\sum\\limits_{i=1}^{N} (x_i - \\bar{x})(y_i - \bar{y})}{N-1}$$
+$$cov(x, y) = \frac{\sum\limits_{i=1}^{N} (x_i - \bar{x})(y_i - \bar{y})}{N-1}$$
 
 * Hitung nilai $b$
 
-\$$b = \frac{cov(x, y)}{var(x)}$$
+$$b = \frac{cov(x, y)}{var(x)}$$
 
 * Hitung nilai $a$
 
@@ -136,3 +136,4 @@ predict = x_test * b + a
 
 ## Evaluasi Model
 Setelah melakukan proses training dan testing, hal terakhir yang harus kita lakukan adalah mengevaluasi model. Apakah model kita sudah sesuai dengan data yang ada? Dalam proses evaluasi ini saya akan menggunakan formula Root Mean Square Error atau disingkat RMSE
+$$RMSE = \sqrt{\frac{{\sum\limits_{i=1}^{N}\hat{y}_i - y_i)^2}N}}$$
