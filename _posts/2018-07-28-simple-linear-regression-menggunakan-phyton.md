@@ -138,3 +138,18 @@ predict = x_test * b + a
 Setelah melakukan proses training dan testing, hal terakhir yang harus kita lakukan adalah mengevaluasi model. Apakah model kita sudah sesuai dengan data yang ada? Dalam proses evaluasi ini saya akan menggunakan formula Root Mean Square Error atau disingkat RMSE
 
 $$RMSE=\sqrt{\frac{\sum\limits_{i=1}^{N}(\hat{y}_i - y_i)}{N}}$$
+
+Dimana $\hat{y}$ adalah nilai prediksi model dan $y$ adalah nilai yang seharusnya. Dengan menggunakan RMSE kita dapat mengetahui nilai rata-rata kesalahan pada model dalam meprediksi nilai total pembayaran untuk sejumlah klaim.
+
+| x_test | predict | y_test | (predict - y_test)^2 |
+| 15 | 64.93399 | 32.1 | 1078.07107 |
+| 8 | 41.55334 | 55.6 | 197.308783 |
+| 29 | 111.6953 | 133.3 | 466.76277 |
+| 30 | 115.0354 | 194.5 | 6314.622553 |
+| 24 | 94.99484 | 137.9 | 1840.852976 |
+| 9 | 44.89343 | 87.4 | 1806.808545 |
+| 31 | 118.3755 | 209.8 | 8358.440208 |
+| 14 | 61.5939 | 95.5 | 1149.623703 |
+| 53 | 191.8576 | 244.6 | 2781.765019 |
+| 26 | 101.675 | 187.5 | 7365.926308 |
+| RMSE =** ||| 56.00016244 |
