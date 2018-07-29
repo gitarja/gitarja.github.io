@@ -142,6 +142,7 @@ $$RMSE=\sqrt{\frac{\sum\limits_{i=1}^{N}(\hat{y}_i - y_i)}{N}}$$
 Dimana $\hat{y}$ adalah nilai prediksi model dan $y$ adalah nilai yang seharusnya. Dengan menggunakan RMSE kita dapat mengetahui nilai rata-rata kesalahan pada model dalam meprediksi nilai total pembayaran untuk sejumlah klaim.
 
 | x_test | predict | y_test | (predict - y_test)^2 |
+| ------ |---------| -------| -------------------- |
 | 15 | 64.93399 | 32.1 | 1078.07107 |
 | 8 | 41.55334 | 55.6 | 197.308783 |
 | 29 | 111.6953 | 133.3 | 466.76277 |
