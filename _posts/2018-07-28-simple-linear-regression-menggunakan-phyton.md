@@ -53,4 +53,8 @@ Untuk menyelesaikan permasalahan diatas, hal yang perlu kita lakukan adalah meng
   \$$b = \\frac{cov(x, y)}{var(x)}$$
 * Hitung nilai $$a$$
 
-  \$$a = \\bar{y} - b \\bar{x}$$  
+  \$$a = \\bar{y} - b \\bar{x}$$
+
+  ## Implementasi Proses Training Menggunakan Pyhton
+
+  Dalam implementasi ini saya menggunakan dua library pada Pyhton [pandas ](http://pandas.pydata.org/pandas-docs/stable/index.html)dan [numpy](http://www.numpy.org/). Pandas saya gunakan untuk mebaca file csv pada file Data/data.csv dan mengkonversinya menjadi [DataFrame  ](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)dan numpy saya gunakan untuk melakukan perhitungan statistik data. Oh ia, untuk membaca file csv pada pyhton banyak alternatif lainnya seperti menggunakan [module csv](https://docs.python.org/2/library/csv.html) pada phyton.
