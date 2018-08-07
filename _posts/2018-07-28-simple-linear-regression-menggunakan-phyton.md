@@ -64,7 +64,7 @@ $$a = \bar{y} - b \bar{x}$$
 
 Dalam implementasi ini saya menggunakan dua library pada Pyhton [pandas ](http://pandas.pydata.org/pandas-docs/stable/index.html)dan [numpy](http://www.numpy.org/). Pandas saya gunakan untuk mebaca file csv pada file Data/data.csv dan mengkonversinya menjadi [DataFrame  ](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)dan numpy saya gunakan untuk melakukan perhitungan statistik data. Oh ia, untuk membaca file csv pada pyhton banyak alternatif lainnya seperti menggunakan [module csv](https://docs.python.org/2/library/csv.html) pada phyton.
 
-{% highlight python %}
+```python
 #import library pandas dan inisialisasikan menjadi pd
 import pandas as pd
 #import library numpy dan inisialisasikan menjadi np
@@ -107,7 +107,7 @@ cov = np.cov(np.vstack((x_train, y_train)), ddof=1)[0][1]
 b = cov / x_var
 #hitung nilai a
 a = y_mean - (b * x_mean)
-{% endhighlight %}
+```
 
 ## Proses Testing Simple Linear Regression
 Jika pada proses training kita melakukan perhitungan untuk mencari nilai $a$ dan $b$ pada model. Pada proses testing hal yang akan kita lakukan adalah melakukan prediksi dengan menghitung nilai y
@@ -117,10 +117,10 @@ $$y  = xb + a$$
 ## Implementasi Proses Testing Menggunakan Pyhton
 Dalam implementasi ini kita akan menggunkan nilai 10 terakhir dari nilai x yaitu x_test
 
-{% highlight python %}
+```python
 #y = xb + a
 predict = x_test * b + a
-{% endhighlight %}
+```
 
 | x_test | predict |
 |-------|--------|
@@ -158,10 +158,10 @@ Dimana $\hat{y}$ adalah nilai prediksi model dan $y$ adalah nilai yang seharusny
 
 ## Implementasi RMSE pada Pyhton
 
-{% highlight python %}
+```python
 #menghitung RMSE model
 RMSE = np.sqrt(np.mean(pow(predict - y_test, 2)))
-{% endhighlight %}
+```
 
 Penjelasan:
 
@@ -172,7 +172,7 @@ Penjelasan:
 ## Plot Model
 Ok pada bagian ini, saya akan memplot data bersama dengan model menggunakan library [matplotlib](https://matplotlib.org/) pada python.
 
-{% highlight python %}
+```python
 #import library pyplot dari matplotlib dan inisialisasi sebagai plt
 from matplotlib import pyplot as plt
 
@@ -192,7 +192,7 @@ plt.ylabel('Total Pembayaran')
 #tampilkan graph
 plt.show()
 
-{% endhighlight %}
+```
 
 Output:
 
@@ -202,7 +202,7 @@ Output:
 
 Sebenarnya untuk memodelkan suatu permasalahan Simple Linear Regression pada phyton, kita dapat menggunakan Sklearn. Dengan menggunakan [Sklearn](http://scikit-learn.org/) kita tidak perlu melakukan coding dari awal, memang lebih praktis tapi perlu diingat bahwa kita perlu memahami tentang cara kerja dari algoritma. Sehingga saya anjurkan untuk melakukan coding dari 0 untuk hal tersebut.
 
-{% highlight python %}
+```python
 import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn import linear_model
@@ -244,4 +244,6 @@ plt.plot(x, smpReg.predict(x))
 plt.xlabel('Jumlah Tuntutan')
 plt.ylabel('Total Pembayaran')
 plt.show()
-{% endhighlight %}
+```
+
+Download source code [disini](https://github.com/gitarja/blog/tree/master/SimpleLinearRegression)

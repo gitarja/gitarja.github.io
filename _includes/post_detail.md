@@ -1,8 +1,5 @@
-<h1 class="entry-title">
-    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-</h1>
-{% if post.title %}
-  <h1 class="entry-title">
-    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-  </h1>      
-{% endif %}
+
+{% for post in site.posts %}
+   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+   <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="{{ root_url }}{{ post.url }}"></a></small></p>
+{% endfor %}
