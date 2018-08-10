@@ -176,7 +176,7 @@ Modelkan permasalahan gerbang logika or dengan perceptron. Dimana nilai $$X = \{
 | 1 | 1 | 1 |
 
 ### **#1 Definisikan variable**
-Dalam permasalahan ini kita mengetahui bahwa terdapat tiga variable: $X$, $W$, dan $y$; dengan dimensi $1\times2$, $2\times1$, dan $1$ berurutan. Pada TF kita dapat dituliskan dengan
+Dalam permasalahan ini kita mengetahui bahwa terdapat tiga variable, $X$, $W$, dan $y$ dengan dimensi $1\times2$, $2\times1$, dan $1$ berurutan. Pada TF dapat dituliskan dengan
 
 ```python
 n_input = 2
@@ -184,5 +184,38 @@ n_output = 1
 
 X = tf.placeholder(tf.float64, [None, n_input], name="X")
 W = tf.get_variable(name="W", shape=[n_input, n_output], initializer=tf.random_uniform_initializer, dtype=tf.float64)
-t = tf.placeholder(tf.float64, [None, n_output], name="y")
+t = tf.placeholder(tf.float64, [None, n_output], name="t")
 ```
+
+### **#2 Definisikan perceptron dan error loss**
+
+Setelah mendefinisikan variable inputs, weights, dan desired outputs langkah selanjutnya adalah memforumulasikan perceptron dan error loss (pada kasus ini MSE digunakan untuk menghitung error antara predicted output dan actual output).
+
+```python
+y = tf.sigmoid(tf.matmul(X, W))
+mse = 0.5 * tf.reduce_mean(tf.square(y - t))
+```
+
+### **#3 Train perceptron**
+
+Ok, setelah mendefinisikan variable, model, dan error loss pada kita dapat mentrain DNN dengan backgpropagation. Pada TF terdapat beberapa algoritma yang dapat digunakan untuk mentrain DNN. Pada postingan ini akan digunakan gradient descent dengan learning rate = 0.1. Proses training akan dilakukan sebanyak 100 iterasi menggunakan batch gradient, dimana seluruh data akan digunakan dalam satu epoch.
+
+```python
+train = tf.train.GradientDescentOptimizer(0.1).minimize(mse)
+
+init = tf.initialize_all_variables()
+
+
+#definisikan nilai
+x_input = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+t_input = np.array([[0], [1], [1], [1]])
+
+with tf.Session() as session:
+    session.run(init)
+
+    for epoch in range(100):
+        _, loss = session.run([train, mse], feed_dict={X: x_input,
+                                                        t: t_input})
+```
+
+## **Multiple Layer Neural Network (MLP)**
