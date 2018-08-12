@@ -156,7 +156,7 @@ $$
 
 ## **Perceptron**
 
-Tarah, setelah memperlajari secara singkat tentang Matematika pada TF saya rasa sekarang sudah saat kita melangkah ke jenjang yang lebih jauh, **perceptron**. Jika anda belum mengetahui apa itu perceptron bisa cek ([disini]).
+Tara, setelah memperlajari secara singkat tentang Matematika pada TF saya rasa sekarang sudah saat kita melangkah ke jenjang yang lebih jauh, **perceptron**. Jika anda belum mengetahui apa itu perceptron bisa cek ([disini]).
 
 Perceptron dapat diformulakan dengan
 
@@ -219,3 +219,77 @@ with tf.Session() as session:
 ```
 
 ## **Multiple Layer Neural Network (MLP)**
+Pada sesi ini kita akan mempelajari Multi Layer Neural Network atau MLP. Pada perceptron input layer langsung terhubung dengan output layer. Sedangkan pada MLP terdapat hidden layer, output layer terdahulu menjadi input layer selanjutnya. Jika pada sesi sebelumnya implementasi perceptron menggunakan TF dilakukan menggunakan "raw code" pada sesi ini kita akan menggunakan fungsi Dense, yang merupakan pre-defined fungsi pada TF yang merepresentasikan feedforward neural network atau perceptron. Untuk meingimplemeentasi MLP dengan 2 hidden layers dapan dituliskan dengan
+
+```python
+dense1 = tf.layers.dense(X, 128, activation=tf.nn.relu, name="dense1")
+dense2 = tf.layers.dense(dense1, 128, activation=tf.nn.relu, name="dense2")
+output = tf.layers.dense(dense2, n_class, activation=None, name="prob_output")
+```
+
+dimana **dense1** merupakan hidden layer pertama yang menghubungkan input layer ,**X** , dengan hidden layer 2. Dan **dense2** adalah hidden layer pertama yang menghubunkan hidden layer pertama dengan output layer **output**.
+
+Dari model diatas kita dapat tahu bahwa, output layer **dense1** merupakan input layer **dense2** sedangkan output layer **dense2** merupakan input layer **output**.
+
+**Persoalan:**
+
+Okay pada bagian ini, kita akan meaplikasikan MLP pada kasus klasifikasi tanaman iris. Dimana input terdiri dari empat variable: sepal length dan width, dan petal length dan width. Sedangkan output terdiri dari tiga kelas: Setosa, Versicolour dan Virginica.
+
+**#1 Load dataset**
+Pada positingan ini digunakan Iris dataset pada sklearn. Yang mana dapat diakses menggunakan kode
+
+```python
+from sklearn import datasets
+iris = datasets.load_iris()
+```
+
+Input yang terdiri dari 150 field dengan 4 variable dan target output yang terdiri dari 3 class dapat dengan mudah diakses dengan kode dibawah ini.
+
+```python
+from sklearn.preprocessing import LabelBinarizer
+le = LabelBinarizer()
+x_input = iris.data
+t_input = le.fit_transform(iris.target)
+```
+
+*Note* : target output diubah menjadi one-hot label dimana untuk class 1, Setosa, direpresentasikan sebagai $$[0, 0, 1]$$ sedangkan untuk class 3, Virginica, sebagai $$[0, 0, 1]$$.
+
+**#2 Implementasi MLP**
+
+Untuk implementasi MLP dengan 2 hidden layer, dimana input berdimensi 4 dan output 3 dapat dimodelkan dengan code dibawah ini,
+
+```python
+n_class = 3
+n_input = x_input.shape[1]
+
+X = tf.placeholder(tf.float64, [None, n_input], name="X")
+t = tf.placeholder(tf.float64, [None, n_class], name="t")
+
+dense1 = tf.layers.dense(X, 128, activation=tf.nn.relu, name="dense1")
+dense2 = tf.layers.dense(dense1, 128, activation=tf.nn.relu, name="dense2")
+output = tf.layers.dense(dense2, n_class, activation=None, name="prob_output")
+```
+
+Dikarenakan permasalahan ini merupakan permasalahan multiclassfication, dimana output memiliki lebih dari dua class, binaryoutput, maka error loss yang digunakan pada kasus ini adalah categorical cross entropy.
+
+```python
+entropy = tf.losses.softmax_cross_entropy(t, output)
+```
+
+*Note*: t merupakan **desired output**, dan output merupakan **logit** yang mejadi input softmax function.
+
+**#3 Training**
+
+Setelah memodelkan MLP dan juga input dan output masukan. Maka langkah selanjutnya adalah mentrain model diatas. Pada tutorial ini MLP akan ditrain menggunakan algoritma batch GradientDescent dengan learning rate 0.01 sebanyak 100 iterasi.
+
+```python
+train = tf.train.GradientDescentOptimizer(0.01).minimize(entropy)
+
+init = tf.global_variables_initializer()
+
+with tf.Session() as session:
+    session.run(init)
+
+    for epoch in range(1000):
+        _, loss = session.run([train, entropy], feed_dict={X: x_input, t:t_input})
+```
