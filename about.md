@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-A slave of curiosity. I am Prasetia. I have been working to help parents understand more about their children. I have been studying Attention Deficit Hyperactive Disorder by observing children's behavior and their brain imaging.
+I am Prasetia - a slave of curiosity. I have been working to help parents understand more about their Attention Deficit Hyperactive Disorder (ADHD) children by developing decision support system for preliminary diagnosis.
 
 I love many things:
 - Computer Vision
