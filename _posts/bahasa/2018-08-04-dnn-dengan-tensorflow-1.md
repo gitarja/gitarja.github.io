@@ -5,7 +5,7 @@ date: 2018-08-04 10:56:54 +0000
 ttitle: #1 DNN dengan TensorFlow
 banner_post: "/assets/DataFitting.png"
 tag: []
-
+categories: bahasa
 ---
 
 Okay, dalam postingan kali ini saya akan membahas bagaimana mengembangkan deep neural network (DNN) menggunakan TensorFlow. Jika anda belum mengetahui apa itu TensorFlow (TF) harap cek link ini.

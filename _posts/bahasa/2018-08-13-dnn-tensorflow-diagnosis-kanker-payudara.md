@@ -5,6 +5,7 @@ date: 2018-08-13 08:56:54 +0000
 ttitle: DNN Menggunakan Tensorflow pada Kasus Diagnosis Kanker Payudara
 banner_post: "/assets/DataFitting.png"
 tag: []
+categories: bahasa
 
 ---
 

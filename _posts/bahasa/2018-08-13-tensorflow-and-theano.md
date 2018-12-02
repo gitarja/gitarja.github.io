@@ -5,6 +5,7 @@ date: 2018-08-13 10:56:54 +0000
 ttitle: Tensorflow
 banner_post: "/assets/tensorflow.jpg"
 tag: []
+categories: bahasa
 
 ---
 

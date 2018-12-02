@@ -5,6 +5,7 @@ date: 2018-08-01 10:56:54 +0000
 ttitle: Training and Testing
 banner_post: "/assets/online-course.jpg"
 tag: []
+categories: bahasa
 
 ---
 

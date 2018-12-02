@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+A slave of curiosity. I am Prasetia. I have been working to help parents understand more about their children. I have been studying Attention Deficit Hyperactive Disorder by observing children's behavior and their brain imaging.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I love many things:
+- Computer Vision
+- Reinforcement Learning (just start loving it recently)
+- Books (I do not have specific preference: romance, horror, medieval story, tech, LGBT, religions, philosophy, and sometimes arts)
+- TV series (Game of Throne)
+- Children (I believe every child deserves for proper education)
+- Writing

@@ -250,6 +250,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-menus (~> 0.6.0)
+  minima
   tzinfo-data
   wdm (~> 0.1.0)
 

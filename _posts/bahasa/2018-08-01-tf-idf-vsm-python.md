@@ -5,6 +5,7 @@ date: 2018-08-01 12:56:54 +0000
 ttitle: TF-IDF VSM Menggunakan Python
 banner_post: "/assets/online-course.jpg"
 tag: []
+categories: bahasa
 
 ---
 Dalam postingan ini saya akan membahas mengenai sebuah teknik yang digunakan untuk merepresentasikan sebuah dokumen dalam sebuah vector (Vector Space Model). Namun, sebelum membahas lebih lanjut saya ingin bertanya, kira-kira mengapa sebuah dokumen harus direpresentasikan menjadi sebuah vector?

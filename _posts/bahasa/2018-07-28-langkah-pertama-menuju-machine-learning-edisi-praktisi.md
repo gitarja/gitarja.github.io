@@ -6,6 +6,7 @@ date: 2018-07-28 00:00:00 +0000
 ttitle: Langkah Pertama Menuju Machine Learning (Edisi Praktisi)
 banner_post: "/assets/paket.jpg"
 tag: []
+categories: bahasa
 
 ---
 Mungkin kata Machine Learning sudah familiar bagi mahasiswa ilmu komputer atau teknik informatika, atau bahkan siswa SMA. Singkatnya Machine Learning adalah bidang ilmu komputer yang membuat sebuah komputer dapat belajar berdasarkan data yang diberikan.

@@ -5,6 +5,7 @@ date: 2018-07-28 10:39:22 +0000
 ttitle: Machine Learning Online Course
 banner_post: "/assets/online-course.jpg"
 tag: []
+categories: bahasa
 
 ---
 Kalau pada postingan sebelumnya membahas tentang tools yang dapat digunakan untuk mempelajari machine learning. Di postingan ini saya akan share tentang beberapa online course yang dapat diikuti untuk membantu memahami teori machine learning.
