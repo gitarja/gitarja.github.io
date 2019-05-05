@@ -3,17 +3,18 @@
 }
 
 .recommended_books{
-	width: 90%;
+	width: 95%;
 }
 .recommended_books #book{
 	width: 100%;
-	height: 250px;
+	height: 260px;
 	border-bottom: thick;
 }
 .recommended_books #title{
 	width: 100%;
-	font-size: 15pt;
+	font-size: 12pt;
 	font-weight: bold;
+	margin-bottom: 1%;
 
 }
 .recommended_books #book_img{
