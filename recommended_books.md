@@ -66,3 +66,54 @@ permalink: /recommended_books/
 </div>
 </div>
 <hr>
+
+<!-- How to create a mind!-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">How to Create a Mind</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/how_to_create_a_mind.jpg"></div>
+<div id="book_summary">Have you ever wondered how your brain works? This book talks about the complex human brain; a complexity that is formed by a repetitive simplicity. There are two main parts of a human brain, the old part and the new one. The old part is a side that is used to regulate body function. While the new part is a side that processes information, called neucortex.</div>
+</div>
+</div>
+<hr>
+
+<!-- Me before you!-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">Me Before You</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/me_before_you.jpg"></div>
+<div id="book_summary">Two people who never meet each other cross on the same path. They are determined to change each other and they succeed to change themselves. They see their decision and life differently in the end. They roam every possibility only to face the truth that they have prepared for. I recommend this book if you need the inspiration to challenge and put yourself to the edge.</div>
+</div>
+</div>
+<hr>
+
+<!-- Madame Bovary!-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">Madame Bovary</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/madame_bovary.jpg"></div>
+<div id="book_summary">Nothing is sweeter than being tempted by passion. Every morning you spend, every breath you gush flies like a butterfly. Only if you can rein your emotion, the passion will relent to you, otherwise, it will seduce you until your graveyard.
+A girl was born as a peasant yet had a lady's soul. She expected everything and everyone progress as her imagination and forgot that she herself should run to chase everything that left her behind.</div>
+</div>
+</div>
+<hr>
+
+<!-- Failure: Why Science Is So Successful!-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">Failure: Why Science Is So Successful</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/failure_science.jpg"></div>
+<div id="book_summary">In science, we made progress by making a failure. That is not a failure without a plan or because of carelessness. That is planned failure that we "expect" to happen and lead us to an unexpected finding that does exist and wait to be discovered. This book tells us that in science the more failure that we experience, the more things that we will learn.</div>
+</div>
+</div>
+<hr>
+
+<!-- What Should I Do with My Life!-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">What Should I Do with My Life</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/what_should_i_do_my_life.jpg"></div>
+<div id="book_summary">What we want in this life is to be acknowledged and accepted. We are craving to contribute to our society so we can put our legacy. Nothing is more important for us than ourselves. We are an egocentric creature who pretends to care about others. We cannot know what we should be and what's to be done to fulfill our desire for acknowledgment unless we acknowledge and understand ourselves.</div>
+</div>
+</div>
+<hr>
