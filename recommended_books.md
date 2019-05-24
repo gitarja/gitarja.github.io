@@ -3,6 +3,15 @@ layout: page
 title: Recommended Books
 permalink: /recommended_books/
 ---
+<!-- Infinite Powers: How Calculus Reveals the Secrets of the Universe !-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">Infinite Powers: How Calculus Reveals the Secrets of the Universe</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/infinite_powers.jpg"></div>
+<div id="book_summary">Richard Feynman said "Calculus is the language of God". This book does not tell the difficulty of calculus exercises so only God can solve them. Yet, it describes many aspects in this world that can be explained using calculus e.g. the effect of HIV drug, planets' orbit, and movement of temperature. It also narrates how calculus itself has been developed till now. Reading this book will answer your big question in school "why should I learn this confusing mathematical formula?"</div>
+</div>
+</div>
+<hr>
 <!-- Risale-i Nur !-->
 <div class="recommended_books">
 <div id="book">
