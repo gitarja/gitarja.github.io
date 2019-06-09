@@ -3,6 +3,25 @@ layout: page
 title: Recommended Books
 permalink: /recommended_books/
 ---
+
+<!-- A Beautiful Mind !-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">A Beautiful Mind</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/a_beautiful_mind.jpg"></div>
+<div id="book_summary">Being a scientist truly requires an ability to find an important issue and raise questions from it then solve them. Science does not force you to deliver a perfect solution at the first step but it demands a creative approach so people can understand better about the issue. There is no scientist who works alone, collaboration and competition are mandatory to deliver insightful finding.</div>
+</div>
+</div>
+<hr>
+<!-- Letters to a Young Scientist !-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">Letters to a Young Scientist</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/letter_to_a_young_scientist.jpg"></div>
+<div id="book_summary">Being a scientist truly requires an ability to find an important issue and raise questions from it then solve them. Science does not force you to deliver a perfect solution at the first step but it demands a creative approach so people can understand better about the issue. There is no scientist who works alone, collaboration and competition are mandatory to deliver insightful finding.</div>
+</div>
+</div>
+<hr>
 <!-- Infinite Powers: How Calculus Reveals the Secrets of the Universe !-->
 <div class="recommended_books">
 <div id="book">
