@@ -30,6 +30,8 @@ Struktur dari neural network model yang digunakan dalam artikel ini terdiri dar
 * Hidden Layer 5: 2048 output units (aktivasi fungsi: ReLu / Sigmoid)
 * Output Layer: 2 units (aktivasi fungsi: Logistic)
 
+![](/assets/mlp_breast_cancer/modelStruktur.png)
+
 
 Pada implementasi kali ini, TensorFlow akan digunakan sebagai framework dalam memodelkan ANN. Langkah pertama dalam implementasi ini adalah membuat fungsi untuk mendefinisikan model. Terdapat tiga variabel dalam fungsi tersebut, features, label, dan mode. Features adalah parameter untuk input feature. Labels adalah parameter untuk actual outputs. Sedangkan mode adalah parameter untuk mendefinisikan running mode, apakah train, eval, atau prediction.
 
@@ -156,6 +158,8 @@ tf.estimator.train_and_evaluate(estimator, train_spec, eval_spec)
 Dalam eksperimen ini ANN model dilatih dengan learning rate 0.01* dan iterasi sebanyak 300.  Dataset dibagi menjadi dua bagian, training (70%) dan validasi (30%). Training error dan validasi error diestimasi dengan fungsi cross-entropy. Selain itu, akurasi performance dari model dievaluasi dengan validasi data pada setiap iterasi.
 
 **Note:** nilai learning rate akan sangat mempengaruhi hasil dari proses training, pemilihan nilai learning rate pada artikel ini dilakukan beberapa kali secara random. 0.01 adalah nilai yang terbaik yang didapatkan dalam eksperimen ini.
+
+![](/assets/mlp_breast_cancer/loss.png)
 
 ### **Error Loss**
 Berdasarkan grafik 1 dapat dilihat bahwa training dan validasi error ANN model menggunakan aktivasi fungsi ReLu pada hidden layer menurun secara berangsur pada setiap iterasi. Pada iterasi awal nilai dari training error dan validasi error berkisar diangka 0.68 dan terus menurun hingga mencapai nilai 0.25 pada akhir iterasi.

@@ -9,6 +9,8 @@ categories: bahasa
 
 ---
 
+<p align="center"><img width="400px" height="auto" src="/assets/training_testing/training-and-testing1.jpg"></p>
+
 Training dan Testing, secara harafiah berarti latihan dan pengujian. Dalam machine learning saya rasa akan banyak dijumpai dua kata tersebut, training dan testing. Tapi, apakah pengertian training dan testing dalam konteks machine learning sama dengan perngertian secara harafiah?
 
 ## **Training tuh.......?**
@@ -19,6 +21,8 @@ Yang jelas sih bukan Duta Cubit yang latihan dicubit. Tapi yang latihan adalah a
 
 ### **Pertanyaan kedua, bagaimana machine learning latihan?**
 Algoritma machine learning akan merubah parameter pada dirinya untuk menyesuaikan dengan data yang diberikan saat latihan. Sama seperti otak manusia, dimana synapse akan melakukan perubahan saat manusia belajar.
+
+![](/assets/training_testing/ann-for-and-gate.png)
 
 ### **Pertanyaan ketiga, kenapa harus latihan?**
 ya tentu jawabaannya agar pintar, jadi machine learning akan latihan atau belajar dari data yang diberikan untuk dapat memahami informasi pada data tersebut.
@@ -38,6 +42,8 @@ Secara umum terdapat tiga tipe belajar, supervised, unsupervised, dan semi-unsup
 	- input data terdiri dari data berlabel dan tidak
 	- belajar bedasarkan contoh dan struktur data
 
+![](/assets/training_testing/learning-style.png)
+
 ## **Testing tuh apa sih?**
 Setelah proses training dilakukan pada sebuah algoritma Machine Learning, tahap selanjutnya adalah melakukan evaluasi terhadap performa algoritma tersebut atau biasa disebut testing. Pada proses testing, performa algoritma akan diuji menggunakan testing set, dimana testing set dan training set merupakan data yang berbeda.
 
@@ -50,4 +56,6 @@ Note:
 - Biasanya untuk pengujian klasifikasi digunakan skema yang lebih kompleks seperti k-folds cross validation.
 - Gambar dibawah ini adalah contoh pengujian sederhana algoritma klasifikasi.
 - Tingkat kesalahan prediksi algortima diukur menggunakan [Root Mean Square Error.](https://www.kaggle.com/docs)
+
+![](/assets/training_testing/training-and-testing-set1.png)
 
