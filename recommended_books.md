@@ -4,12 +4,42 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
+
+<!-- the art of thinking clearly !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">The Art of Thinking Clearly</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/art_thinking_clearly.jpg"></div>
+<div id="book_summary">Cognitive skill contributes to the human race's causes to advance over other creatures, but it does not mean it is without flaw. The cognitive error happens frequently in our daily activities. For example, we often end up buying on-sale products that we do not need because the "last-chance" sign is put on them. Or we feel more hurt when we break off from our friend after a one-year relationship but feel less when she is the one we know three months ago.  The book tells us more cognitive errors that we often face but do not realize. We cannot eliminate these errors from our life yet avoiding them and reducing their effects are possible by criticizing ourselves.</div>
+</div>
+</div>
+<hr>
+<!-- Educated !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">Educated</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/educated.jpg"></div>
+<div id="book_summary">We were born and raised in a family. We inherited both our ancestors' physical appearance and their experience - that includes their fear and prejudice. We hate what they hate and think what is right from their lens. So the first mission in our life should be fighting against the prejudice that we have unconsciously built till now - and it only can be won with curiosity and education.</div>
+</div>
+</div>
+<hr>
+<!-- A Beautiful Mind !-->
+<div class="recommended_books">
+<div id="book">
+<div id="title">Upheaval: Turning Points for Nations in Crisis</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/upheaval.jpg"></div>
+<div id="book_summary">Every individual will face crises in his life. If he can tackle them he survives, otherwise, he vanishes. Like an individual, a nation also will meet its own crises that require all components of it to make selective changes thus the nation can survive. Both an individual and a nation can only pull through a crisis if first, they acknowledge that they are in a crisis then take the responsibility to solve it. For us as human, can we survive crises that we are suffering now e.g. global warning, spreading epidemic, and shrinking vital commodities if we close our eyes upon them?</div>
+</div>
+</div>
+<hr>
 <!-- A Beautiful Mind !-->
 <div class="recommended_books">
 <div id="book">
 <div id="title">A Beautiful Mind</div>
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/a_beautiful_mind.jpg"></div>
-<div id="book_summary">Being a scientist truly requires an ability to find an important issue and raise questions from it then solve them. Science does not force you to deliver a perfect solution at the first step but it demands a creative approach so people can understand better about the issue. There is no scientist who works alone, collaboration and competition are mandatory to deliver insightful finding.</div>
+<div id="book_summary">Life is a struggle to balance between what you want and what society expects. It is fragile as many people stumble down just after seeing their glory. It is a conflict between solitude and company. Yet, life also provides hours of enjoyment when you achieve prestige and get acknowledged for it. That is a chaotic cycle that may thrust you up from the bottom of a dreadful valley. Life, indeed, is a perfect harmony between cooperativeness and rivalry.</div>
 </div>
 </div>
 <hr>
