@@ -5,6 +5,16 @@ permalink: /recommended_books/
 ---
 
 
+<!-- Bad blood !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">Bad Blood: Secrets and Lies in a Silicon Valley Startup</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/bad_blood.jpg"></div>
+<div id="book_summary">"Fake it until you make it" is a jargon that sounds ambitious and has been adopted by many tech companies. While users of software only get frustrated by the bugs found in it, users of the medical system may get killed. This book reminds me that not all brilliant ideas survive since some of them get sunk to the bottom of the sea because the current circumstances do not support it. It was like the fate of artificial neural networks in the 90s, while many people were skeptics and thrown away the idea; until the advance of computer hardware such as GPU that enables ANN to be trained with a big dataset and outperforms the conventional ML algorithms. Maybe, if the founders of this startup focused on solving the basic problems first, then implemented their revolutionary idea - maybe they would win.</div>
+</div>
+</div>
+<hr>
 <!-- the art of thinking clearly !-->
 <div class="recommended_books">
 <!-- Educated !-->
@@ -25,7 +35,7 @@ permalink: /recommended_books/
 </div>
 </div>
 <hr>
-<!-- A Beautiful Mind !-->
+<!-- Upheaval !-->
 <div class="recommended_books">
 <div id="book">
 <div id="title">Upheaval: Turning Points for Nations in Crisis</div>
