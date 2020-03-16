@@ -4,7 +4,16 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
-
+<!-- Statistics !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">The Art of Statistics: Learning from Data</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/statistics.jpg"></div>
+<div id="book_summary">Statistics is a tool that we can use to reveal information in data. Like other tools, it produces what its users expect and depends on their expertise. It may unveil the secrets of the universe or bias the truth that lay ahead of us. Statistics is also prone to its users' willing: it cannot reveal the lies that are fed to it by its master. In the era of big data, we who want to survive have to pursue statistic literacy - so we became less ignorant.</div>
+</div>
+</div>
+<hr>
 <!-- Bad blood !-->
 <div class="recommended_books">
 <!-- Educated !-->
