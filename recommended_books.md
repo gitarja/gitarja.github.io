@@ -4,6 +4,17 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
+
+<!-- Statistics !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">The Culture Map</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/culture_map.jpg"></div>
+<div id="book_summary">When a wise man says that you must travel around the world to understand the people, it means literally. Nowadays, flights are safer and cheaper, business sprouts in many continents, so people are more connected. While you can enjoy comforts in your hometown, you also can taste frustration caused by other people that do something differently from you. However, if you can be flexible and aware that people not only differ personally but culturally, then you can strive and ripe many benefits.</div>
+</div>
+</div>
+<hr>
 <!-- Statistics !-->
 <div class="recommended_books">
 <!-- Educated !-->
