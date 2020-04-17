@@ -4,7 +4,17 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
-
+<!-- Where good ideas come !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">Where Good Ideas Come from: The Natural History of Innovation
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/good_ideas.jpg"></div>
+<div id="book_summary">An idea is not a single entity that comes from nothing. It results from the collision of information that interconnects inside the human brain. To emerge to the surface, it requires components that support its existence and vibrant society that maintains its circulation. </div>
+</div>
+</div>
+<hr>
 <!-- Statistics !-->
 <div class="recommended_books">
 <!-- Educated !-->
