@@ -15,7 +15,7 @@ permalink: /recommended_books/
 </div>
 </div>
 <hr>
-<!-- Statistics !-->
+<!-- Culture Map !-->
 <div class="recommended_books">
 <!-- Educated !-->
 <div id="book">
