@@ -4,6 +4,17 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
+<!-- Irrational exuberance !-->
+<div class="recommended_books">
+<!-- Educated !-->
+<div id="book">
+<div id="title">Irrational exuberance
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/irrational_exuberance.jpg"></div>
+<div id="book_summary">The price of equity in the market not only affected by smart decisions but also irrational actions. Although many people are more educated financially, still, their actions can be influenced by many factors such as the-word-of-mouth and news that make them panic to sell or to buy assets. That does not mean that they are stupid, but it indicates that sometimes people can be overwhelmed by their emotions and become irrational. </div>
+</div>
+</div>
+<hr>
 <!-- Where good ideas come !-->
 <div class="recommended_books">
 <!-- Educated !-->
