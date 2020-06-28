@@ -4,11 +4,32 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
+<!-- The choice !-->
+<div class="recommended_books">
+<!-- The choice !-->
+<div id="book-long">
+<div id="title">The Choice
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/the_choice.jpg"></div>
+<div id="book_summary">Everyone is born free to make many choices in her life. When we are a child, our parents and the people around us help and guide us to decide which options we should take. As we grow and become aware of ourselves, some of us exercise to make our own choices, but the others prison themselves in their own mind and let other people decide on their behalf. For that, we blame our parents, friends, partner, or government for our incapacity to free ourselves. We mistakenly believe that other people force us into submission towards them so we do not have freedom anymore. Yet, we do not dare to accept that our body will not be free as long as we prison our mind, believing that we are incapable to make choices. To free is to accept what already happened to us, to learn from our experiences, and to forgive ourselves and others that have harmed us. To free is also to understand that we always and can make another option, not only options presented to us. We may be restricted physically but we are always free in our mind because no one can enter our mind without our permission.</div>
+</div>
+</div>
+<hr>
 <!-- Irrational exuberance !-->
 <div class="recommended_books">
-<!-- Educated !-->
+<!-- The book of why !-->
+<div id="book-long">
+<div id="title">The Book of Why
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/the_book_of_why.jpg"></div>
+<div id="book_summary">Nature answers only questions that we ask to it. Contradicting results doe not mean that reality opposes the theory, but it means what we ask to nature is wrong. I realize that many of my collages and I do not seriously consider the step to formulate a question in our research. We often assume if we do a bunch of experiments, then we can obtain the expected results serendipitously. We often forget that bias does exist inside our minds and is ready to fool us by assuring us that we see patterns in the data. Constructing a causal model when conducting research can help us to prevent undesirable misinterpretation that can harm both ourselves and society. This technique encourages us to consider the possibility of cofounders that involve in our study, thereby allowing us to minimize or remove the effect of them in our model so we can get probable answers from the mother of nature.</div>
+</div>
+</div>
+<hr>
+<!-- Irrational exuberance !-->
+<div class="recommended_books">
 <div id="book">
-<div id="title">Irrational exuberance
+<div id="title">Irrational Exuberance
 </div>
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/irrational_exuberance.jpg"></div>
 <div id="book_summary">The price of equity in the market not only affected by smart decisions but also irrational actions. Although many people are more educated financially, still, their actions can be influenced by many factors such as the-word-of-mouth and news that make them panic to sell or to buy assets. That does not mean that they are stupid, but it indicates that sometimes people can be overwhelmed by their emotions and become irrational. </div>

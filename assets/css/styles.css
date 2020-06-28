@@ -10,6 +10,11 @@
 	height: 330px;
 	border-bottom: thick;
 }
+.recommended_books #book-long{
+	width: 100%;
+	height: 430px;
+	border-bottom: thick;
+}
 .recommended_books #title{
 	width: 100%;
 	font-size: 12pt;
