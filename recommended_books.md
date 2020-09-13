@@ -4,7 +4,17 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
-
+<!-- The Firm: The Story of McKinsey and Its Secret Influence on American Business !-->
+<div class="recommended_books">
+<!-- The second kind of impossible !-->
+<div id="book-long">
+<div id="title">The Firm: The Story of McKinsey and Its Secret Influence on American Business
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/the_firm_mckinsey.jpg"></div>
+<div id="book_summary">Before you advise someone, you should make him trust you, so he listens to the perspective that you offer. Building trust with others needs both charming behavior and radiating self-confidence. In brief, people put their trust in you if you show them that you can be trusted. Then, once you become someone's confidant, you should remember that what he says to you becomes a secret between two of you.
+You must understand that you have to keep his secret and his pride by claiming none of his success and his failure as yours. And the advice you give to him should be treated as advice, not instruction or even a suggestion.</div>
+</div>
+</div>
 <!-- The second kind of impossible !-->
 <div class="recommended_books">
 <!-- The second kind of impossible !-->
