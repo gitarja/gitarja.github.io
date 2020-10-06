@@ -35,3 +35,28 @@
 	float: right;
 	margin-left: 5%
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+
+  float: left;
+  width: 48%;
+  padding: 5px;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align:center;
+}
+@media screen and (max-width: 200px) {
+  .column {
+    width: 100%;
+  }
+}
