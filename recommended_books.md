@@ -4,10 +4,21 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
+<!-- Becoming-->
+<div class="recommended_books">
+<!-- Becoming !-->
+<div id="book">
+<div id="title">Becoming
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/becoming.jpg"></div>
+<div id="book_summary">From zero to hero is the sweetest dream that many people try to believe. The idea revolts the conventional belief, in which what you will be is decided by who you are. It, however, does not always happen and can only occur when the place, the time, and other circumstances support the idea. Despite that grim fact, you, of course, must strive for your dream and put all of your efforts to convince yourself and others that your goal is possible. But, you shall not forget to define yourself anytime and anywhere you can before the others define you. Also, you must convey to them that you can get and use privilege as much as they can, and you come from a "remarkable" family that is the only one in this world and contributes to shaping your identity.</div>
+</div>
+</div>
+<hr>
 <!-- The Firm: The Story of McKinsey and Its Secret Influence on American Business !-->
 <div class="recommended_books">
 <!-- The second kind of impossible !-->
-<div id="book-long">
+<div id="book">
 <div id="title">The Firm: The Story of McKinsey and Its Secret Influence on American Business
 </div>
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/the_firm_mckinsey.jpg"></div>
@@ -15,16 +26,18 @@ permalink: /recommended_books/
 You must understand that you have to keep his secret and his pride by claiming none of his success and his failure as yours. And the advice you give to him should be treated as advice, not instruction or even a suggestion.</div>
 </div>
 </div>
+<hr>
 <!-- The second kind of impossible !-->
 <div class="recommended_books">
 <!-- The second kind of impossible !-->
-<div id="book-long">
+<div id="book">
 <div id="title">The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter
 </div>
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/the_second_kind_of_impossible.jpg"></div>
 <div id="book_summary">When you encounter an impossible thing, you have to ask yourself whether it is the first or the second kind of impossible. The first kind of impossible is the thing that absolutely cannot be done, such as walking with a hearth for a man. That is because it is a soft internal organ that cannot support the weight of its owner. The second kind of impossible is the thing that has a tiny chance to be successfully done, but it is worthy if you succeed to do it. In pursuing the second kind of impossible, you need strong physical and emotional perseverance that only possible if you have a good resilence for both of them. Also, you need people who dare to criticize you so you can avoid confirmation bias that you will often experience when you find the thing contradicting the common belief.</div>
 </div>
 </div>
+<hr>
 <!-- The choice !-->
 <div class="recommended_books">
 <!-- The choice !-->
