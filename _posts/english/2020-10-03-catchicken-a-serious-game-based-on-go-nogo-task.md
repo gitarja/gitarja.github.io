@@ -56,7 +56,7 @@ The subjects that belong to this cluster had gaze distribution that **concentrat
 ## Next?
 This study proposed a system that can identify symptoms relating to invisible disorders in early childhood. We intend to measure the response and gaze behavior of typical and disorder children. The results from the preliminary experiment suggest that how the participant responds and how their gaze behavior may relate. Also, the results imply that how typical and disorder move their gaze towards the stimulus may differ.
 
-## Where can I download?
+## Where can I download the software?
 You can download [here](https://sourceforge.net/projects/catchicken/ ). Please contact me if you have any questions or troubles when installing the software.
 
 ## References
