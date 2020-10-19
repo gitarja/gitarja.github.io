@@ -37,7 +37,7 @@ Mungkin ketika dengar anaconda kebayang tentang ular dari sungai amazon yang bis
 
 Nah pertama download dulu Anaconda, untuk yang belum install Phyton pakai Anaconda udah langsung dapet kok, dan yang sudah install Phyton di komputernya gak perlu takut, karena gak akan bentrok.
 
-Untuk mendownload anaconda bisa mampir ke website ini ([https://www.continuum.io/downloads](https://www.continuum.io/downloads "https://www.continuum.io/downloads")), kalau PyCharm bisa liat disini ([https://www.jetbrains.com/pycharm/download/](https://www.continuum.io/downloads "https://www.continuum.io/downloads")), kalau yang punya duit boleh pakai yg Professional, kalau saya sih yang Community.
+Untuk mendownload anaconda bisa mampir ke website ini ([https://www.continuum.io/downloads](https://www.continuum.io/downloads "https://www.anaconda.com/products/individual")), kalau PyCharm bisa liat disini ([https://www.jetbrains.com/pycharm/download/](https://www.continuum.io/downloads "https://www.jetbrains.com/pycharm/download/")), kalau yang punya duit boleh pakai yg Professional, kalau saya sih yang Community.
 
 Oh ia untuk langkah - langkah installasinya, pertama Anaconda dulu baru PyCharm, phyton base foldernya akan otomatis terbaca oleh PyCharm.
 
