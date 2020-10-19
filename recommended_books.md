@@ -4,6 +4,19 @@ title: Recommended Books
 permalink: /recommended_books/
 ---
 
+# I read one to two books in a month. These are some of them that I recommend to you!
+
+<!-- The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company-->
+<div class="recommended_books">
+<!-- The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company !-->
+<div id="book">
+<div id="title">The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/the_ride_of_lifetime.jpg"></div>
+<div id="book_summary">Leadership is not only the capacity to manage people, but it also requires the ability to appraise, care, empathy the people who follow you genuinely. In a dire situation, a leader will be his follower's power, and what he says and how he behaves will affect his people. He should initiate hope: to believe the people and to take action to solve the problems that lay ahead. To lead also means to dare enough to listen to others' opinions and to evaluate yourself whether you use your power and authority appropriately or not.</div>
+</div>
+</div>
+<hr>
 <!-- Becoming-->
 <div class="recommended_books">
 <!-- Becoming !-->

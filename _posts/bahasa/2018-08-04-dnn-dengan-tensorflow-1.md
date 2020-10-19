@@ -1,8 +1,8 @@
 ---
-title: #1 DNN dengan TensorFlow
+title: DNN dengan TensorFlow
 undefined: SUB TITLE
 date: 2018-08-04 10:56:54 +0000
-ttitle: #1 DNN dengan TensorFlow
+ttitle: DNN dengan TensorFlow
 banner_post: "/assets/DataFitting.png"
 tag: []
 categories: bahasa
