@@ -6,6 +6,17 @@ permalink: /recommended_books/
 
 # I read one to two books in a month. These are some of them that I recommend to you!
 
+<!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
+<div class="recommended_books">
+<!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again !-->
+<div id="book">
+<div id="title">Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/deep_medicine.jpg"></div>
+<div id="book_summary">The use of AI in medicine is neither to replace doctors' position nor to remove humans' intervention in medical work but to alleviate the medical workers' burden by automating narrow tasks and accelerate their performance. So, they will have more time to spend with their patients and their loved ones. The use of AI also will reduce the price and increase the accessibility of health-care, which will lead to a more inclusive system. Another benefit of using AI in medicine is a personalized health-care that will allow a patient to receive treatment based on his physical and emotional characteristics.</div>
+</div>
+</div>
+<hr>
 <!-- The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company-->
 <div class="recommended_books">
 <!-- The Ride of a Lifetime: Lessons Learned from 15 Years as CEO of the Walt Disney Company !-->
