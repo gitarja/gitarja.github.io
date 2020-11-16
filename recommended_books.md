@@ -6,6 +6,23 @@ permalink: /recommended_books/
 
 # I read one to two books in a month. These are some of them that I recommend to you!
 
+
+
+<!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
+<div class="recommended_books">
+<!-- The Now Habit !-->
+<div id="book-long">
+<div id="title">The Now Habit
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/now_habit.jpg"></div>
+<div id="book_summary">You procrastinate not because you are lazy but because you feel anxious or get overwhelmed by the task that you have to accomplish. Overcoming procrastination requires you to reframe your mindset about the duties and how you execute them. The first step you need to take is to nurture the "I choose, decide, and do that" mindset and free yourself from the have-to perspective. When you choose and decide to accomplish something, you tell yourself that you do that for yourself with your willingness. Next, you can break down a big task into small objectives that you can start and finish in a certain period, so you can see the progress that you make. Lastly, you award yourself by taking a break. When you hold a glass for a long time without a break, you will feel exhausted, even though the glass is very light. It is the same when you work continuously without a break; one day, you will break yourself. So give a reward whenever you accomplish something: go on vacation, and spend your time with your loved ones.
+
+"Personally, however, I think we should procrastinate before making a crucial decision or after finishing our draft. So we have time to get more information to refine our current perspective".
+</div>
+</div>
+</div>
+<hr>
+
 <!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
 <div class="recommended_books">
 <!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again !-->
