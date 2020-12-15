@@ -7,6 +7,19 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+<!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
+<div class="recommended_books">
+<!-- The Now Habit !-->
+<div id="book">
+<div id="title">Innovation Delusion
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/innovation_delusion.jpg"></div>
+<div id="book_summary">Innovation is a must. But without maintenance, it will be a catastrophe. The human species thrives because it can adapt to its surroundings and overcome obstacles. While we adapt, we either create something new or improve the things that we have, and we call both of them innovation. We innovate to improve our life quality and to adapt to the environment that changes over time. Hence, any innovation that neither improve our life quality nor simplify our life are only innovation delusion.
+</div>
+</div>
+</div>
+<hr>
+
 
 <!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
 <div class="recommended_books">
