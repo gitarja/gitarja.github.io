@@ -7,7 +7,34 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
-<!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
+<!-- Range: Why Generalists Triumph in a Specialized World-->
+<div class="recommended_books">
+<!-- Range: Why Generalists Triumph in a Specialized World !-->
+<div id="book">
+<div id="title">Range: Why Generalists Triumph in a Specialized World
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/range.jpg"></div>
+<div id="book_summary">Discovery is not a process to invent something from nothing. It is a process to apply one solution to another problem that lies in another sphere. To find that connection between two points, you must see those points from inside and outside. While we tend to specialize in one particular field, we should encourage ourselves to be curious about things outside our discipline. And since the path to discovery is not straightforward, we need to play the game with the right rule: to stay in, not to win.
+</div>
+</div>
+</div>
+<hr>
+
+<!-- How Emotions Are Made: The Secret Life of the Brain-->
+<div class="recommended_books">
+<!--How Emotions Are Made: The Secret Life of the Brain !-->
+<div id="book-long">
+<div id="title">How Emotions Are Made: The Secret Life of the Brain
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/emotions_are_made.jpg"></div>
+<div id="book_summary">Alike religion and the concept of sound, emotion is one of the social realities that humans develop to express the change in their physical body. It helps us (as a human) to categorize what happens within us and communicate it with people in our community. Although we often believe that emotion and physical condition are separable entities, in truth, they are not. For example, your heartbeat increases when you feel afraid and awe, and you think that you are happy when your endorphins escalate.
+Emotion is our brain's product that translates the environment around us, captured by our senses, and combined with the experience wired in our neurons so we can communicate what happens within us with other people. Hence, we can't say that a person can control his emotion and become more rational. But we may say that to be rational you need to let your brain process more information to increase its prediction on interpreting the circumstances.
+</div>
+</div>
+</div>
+<hr>
+
+<!-- Innovation Delusion -->
 <div class="recommended_books">
 <!-- The Now Habit !-->
 <div id="book">
@@ -21,7 +48,7 @@ permalink: /recommended_books/
 <hr>
 
 
-<!-- Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again-->
+<!-- The Now Habit-->
 <div class="recommended_books">
 <!-- The Now Habit !-->
 <div id="book-long">
