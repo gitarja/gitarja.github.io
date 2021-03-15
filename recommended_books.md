@@ -7,6 +7,20 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+
+<!-- Range: Why Generalists Triumph in a Specialized World-->
+<div class="recommended_books">
+<!-- Range: Why Generalists Triumph in a Specialized World !-->
+<div id="book">
+<div id="title">Range: Why Generalists Triumph in a Specialized World
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/dinosaurs.jpg"></div>
+<div id="book_summary">The wheel of life always moves - nothing stays at an equilibrium position forever. When something slips and falls, another rises to the surface. Dinosaurs ruled this world with their gigantic body, stood on the top, feared none. They dominated this world after their predecessor's kingdom crumbled to the ground. The evolution chose them to overtop other creatures, equipped them with a magnificent physical shape and distinguished social skill. After millions of years, they stood on the top, then the evolution itself chose a new favorite and expelled the dinosaurs. So maybe, one-day, the evolution itself will gaze on another creature and strips off our crown that we hold so dear.
+</div>
+</div>
+</div>
+<hr>
+
 <!-- Range: Why Generalists Triumph in a Specialized World-->
 <div class="recommended_books">
 <!-- Range: Why Generalists Triumph in a Specialized World !-->
