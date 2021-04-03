@@ -8,6 +8,32 @@ permalink: /recommended_books/
 
 
 
+<!-- 21 lessons for the 21st century-->
+<div class="recommended_books">
+<!--21 lessons for the 21st century !-->
+<div id="book">
+<div id="title">21 lessons for the 21st century
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/21_lessons_21_century.jpg"></div>
+<div id="book_summary">We always seek to advance our civilization but seldom ask ourselves what kind of society we dream to live. "A better society, in which every individual can fulfill his role and has an equal right," we often answer. That dream, however, only can be achieved only by global cooperation involving all nationalities, religions, and political parties. Without universal cooperation, the prosperity of one civilization will only be a reason for another one to start a war. In this global era, each community is connected with the others; what happens in one group affects another one. To realize our dream of becoming a prosperous global society, we should start looking outside the walls.
+</div>
+</div>
+</div>
+<hr>
+
+<!-- Volume Control: Hearing in a Deafening World-->
+<div class="recommended_books">
+<!--Volume Control: Hearing in a Deafening World !-->
+<div id="book">
+<div id="title">Volume Control: Hearing in a Deafening World
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/volume_control.jpg"></div>
+<div id="book_summary">One of the human senses that never sleeps is the ear. It constantly senses the vibration carried by air and transforms that sound wave into information interpreted by the brain. Compared to the other senses, we barely care about our audio sensor's health. We treat our ear as if it can heal itself even though we expose it to harmful sounds: loud music, car-horn, and bustling city life. We ignore our ears' problems since we believe that people with impaired ears can function as usual. The fact, however, tells that deaf people seem to perform well in basic activities (e.g., walk, eat, drink) but struggle to accomplish tasks requiring coordination and collaboration with others (e.g., chatting, driving, playing football)
+</div>
+</div>
+</div>
+<hr>
+
 <!-- The Rise and Fall of the Dinosaurs: A New History of a Lost World-->
 <div class="recommended_books">
 <!--The Rise and Fall of the Dinosaurs: A New History of a Lost World !-->
