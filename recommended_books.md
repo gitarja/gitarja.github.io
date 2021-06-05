@@ -8,6 +8,32 @@ permalink: /recommended_books/
 
 
 
+<!--The Fabric of Reality: The Science of Parallel Universes and Its Implications-->
+<div class="recommended_books">
+<!--The Fabric of Reality: The Science of Parallel Universes and Its Implications !-->
+<div id="book">
+<div id="title">The Fabric of Reality: The Science of Parallel Universes and Its Implications
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/fabric_of_reality.jpg"></div>
+<div id="book_summary">This book may blow up your mind. Though the book mainly tells possible explanations about reality in this world, it will make you wonder about the very existence of you in this world. It explains four fundamental theories that may help you the reality of this world. They are quantum physics, universal computation, Popperian epistemology, and Darwin-Dawkin's theory of evolution. The book attempts to prove that those theories are interconnected, and they should be treated as a single unit of the fabric of reality.
+</div>
+</div>
+</div>
+<hr>
+
+<!--Get to the Point! Sharpen Your Message and Make Your Words Matter-->
+<div class="recommended_books">
+<!--Get to the Point! Sharpen Your Message and Make Your Words Matter !-->
+<div id="book">
+<div id="title">Get to the Point! Sharpen Your Message and Make Your Words Matter
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/get_to_point.jpg"></div>
+<div id="book_summary">When we speak to someone, we deliver what is inside our head to our conversant's head- the sole objective of communication. It does not matter how we look and how our voice sounds; as long as we fail to deliver our point, our communication is meaningless. To communicate our point, first, we should decide what the point is and how we can benefit our audience with our point. Then, we should adjust the vocabulary that we use to the audience's capability to understand the message that we deliver.
+</div>
+</div>
+</div>
+<hr>
+
 <!-- 21 lessons for the 21st century-->
 <div class="recommended_books">
 <!--21 lessons for the 21st century !-->
