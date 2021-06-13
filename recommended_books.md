@@ -8,6 +8,19 @@ permalink: /recommended_books/
 
 
 
+<!--Give and Take-->
+<div class="recommended_books">
+!--Give and Take-->
+<div id="book">
+<div id="title">Give and Take
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/give_take.jpg"></div>
+<div id="book_summary">Giving means that we donate what we have to another person without expecting anything in return.  When we give something to someone, we intend to improve their well-being, which indirectly affects our well-being. We must be sure that our good intention will not backfire and do a harmful effect on us. That is why we have to prioritize both our objective and the recipients' objective when we give something to them. Remember that our time, energy, and money are limited. We can give all of them to other people as we also need them to survive and advance.
+</div>
+</div>
+</div>
+<hr>
+
 <!--The Fabric of Reality: The Science of Parallel Universes and Its Implications-->
 <div class="recommended_books">
 <!--The Fabric of Reality: The Science of Parallel Universes and Its Implications !-->
