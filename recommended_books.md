@@ -10,7 +10,7 @@ permalink: /recommended_books/
 
 <!--Give and Take-->
 <div class="recommended_books">
-!--Give and Take-->
+<!--Give and Take-->
 <div id="book">
 <div id="title">Give and Take
 </div>
