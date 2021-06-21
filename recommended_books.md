@@ -7,6 +7,18 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+<!-- Measure What Matters-->
+<div class="recommended_books">
+<!--Measure What Matters!-->
+<div id="book">
+<div id="title">Measure What Matters
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/measure_what_matters.jpg"></div>
+<div id="book_summary">Setting an objective is important. But without being able to be evaluated and measured, the objective will be only an idea that never gets executed.  An objective should be accompanied by key results that we can use to measure how far us from the goals. Key results must be ambitious but attainable. They should be challenging enough so the people who get involved in the project can stretch their limits and grow their abilities. When evaluating key results, we should bear in mind that being off the track sometimes is fine - it tells that the key results are bold.
+</div>
+</div>
+</div>
+<hr>
 
 <!--Give and Take-->
 <div class="recommended_books">
