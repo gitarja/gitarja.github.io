@@ -7,6 +7,19 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+<!-- Think and Grow Rich-->
+<div class="recommended_books">
+<!--Think and Grow Rich!-->
+<div id="book">
+<div id="title">Think and Grow Rich
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/think_and_grow_rich.jpg"></div>
+<div id="book_summary">To succeed, you can't only rely on luck. A burning desire, decisiveness, and persistence are three components that one should have to accomplish their goal. And since you can't achieve success alone, you should always accompany yourself with mindful friends, whom you can ask for counsel when you need it. Also, you should avoid toxic persons that bring fear whenever they go, so you can feed your mind with a positive attitude towards any difficulty that you face.
+</div>
+</div>
+</div>
+<hr>
+
 <!-- Measure What Matters-->
 <div class="recommended_books">
 <!--Measure What Matters!-->
