@@ -7,6 +7,19 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+<!-- Oxford Guide to Plain English-->
+<div class="recommended_books">
+<!--Oxford Guide to Plain English!-->
+<div id="book">
+<div id="title">Oxford Guide to Plain English
+</div>
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/plain_english.jpg"></div>
+<div id="book_summary">If you communicate a piece of fascinating information in a complex language, people may not understand. So you must always often plain English to make it understandable. Plain English means that the sentence is brief, the vocabulary and the grammar are simple but not tedious, and the layout is uncomplicated. The main principle of plain English is to prioritize the readers and not assume they are literate and have a high reading ability.
+</div>
+</div>
+</div>
+<hr>
+
 <!-- Think and Grow Rich-->
 <div class="recommended_books">
 <!--Think and Grow Rich!-->
