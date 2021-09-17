@@ -14,6 +14,32 @@ permalink: /recommended_books/
 
 
 
+<!-- Think Again: The Power of Knowing What You Don't Know
+-->
+
+<div class="recommended_books">
+
+<!--Think Again: The Power of Knowing What You Don't Know
+-->
+
+<div id="book">
+
+<div id="title">Think Again: The Power of Knowing What You Don't Know
+
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/think_again.jpg"></div>
+
+<div id="book_summary">
+You may often doubt what other people say or believe, but how dare you confront your perspective. "You have to think to rethink" is a mantra that people often say when they disagree with what their opponents say. But to recite that mantra to ourselves can be more intimidating; since we often get trapped in a defensive position to defend our perspective, which turns to our identifying against others. "Think to rethink" must be started from ourselves, the one who expects that others do the same.
+</div>
+
+</div>
+
+</div>
+
+<hr>
 
 
 <!-- A Brief History of Time-->
