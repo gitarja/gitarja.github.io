@@ -8,7 +8,7 @@ permalink: /publications/
 
 ### **Markerless Human Activity Recognition Method Based on Deep Neural Network Model Using Multiple Cameras**
 
-[[pdf](/assets/pdfs/markerless_human_activity_recognition.pdf)][source code]
+[[pdf](/assets/pdfs/markerless_human_activity_recognition.pdf)][<a href="https://github.com/gitarja/HumanActivityRecognition">source code</a>]
 
 **Conference: 2018 5th International Conference on Control, Decision and Information Technologies (CoDIT)**
 
@@ -21,3 +21,11 @@ permalink: /publications/
 **Conference: 2014 1st International Conference on Advanced Informatics: Concepts, Theory, and Applications**
 
 **Abstract:** Human emotion recognition has been challenging issue in field of human-computer interaction. In order to form an interaction that is more natural between human and computer , the computer should be able to discern and respond to human emotion. In this paper, an approach for recognizing human emotion is proposed. The proposed approach operates HAAR-classifier to detect mouth, eyes, and eyebrow on face, and, to extract features from them, it uses Gabor wavelet. Before classifying the features, PCA is performed to reduce its dimension. The proposed framework employs SLFNs with ELM as its learning algorithm to classify the features. In this experimental, the proposed framework is tested in two cases, personalize and generalize face case, with ten subjects expressing six basic emotions and neural state. The robustness of ELM is evaluated with comparing it to K-NN and SVM. Preliminary experiment shows that the proposed approach has promising performance in personalize face case.
+
+### **Catchicken: A Serious Game Based on the Go/NoGo Task to Estimate Inattentiveness and Impulsivity Symptoms**
+
+[pdf][<a href="https://github.com/gitarja/AttentionAnalysis">source code</a>]
+
+**2020 IEEE 33rd International Symposium on Computer-Based Medical Systems (CBMS)**
+
+**Abstract:** We present a Go/NoGo 3D game equipped with an eye tracker that records subjects' responses and his gaze position on the monitor over time. The proposed system consists of two functions: training that allows an instructor to modify the game's parameters and make a customized test; and evaluation in which the instructor can fix the parameters to create a standardized test. During the experiment, subjects were required to respond only to Go character by pressing a spacebar. The experimental results from 59 participants demonstrated that one's response time and its variability correlated with one's gaze behavior. Subjects with higher gaze modulation tended to respond faster and more stable. We also observed that utilizing the proposed system we could monitor the improvements in an Autism Spectrum Disorder child during his rehabilitation: his gaze modulation increased and his response time became more steady. In brief, utilizing the proposed system, we could effectively measure participants' response time variability of NoGo errors and their gaze trajectory area, which previous studies found to have a strong relationship with symptoms of mental disorders.
