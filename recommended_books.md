@@ -34,15 +34,19 @@ permalink: /recommended_books/
 <div id="book_summary">
 We form a habit by repeating a satisfying activity over and over. Before we get addicted to SNS, we only use it for one minute to relieve stress. And since it is enjoyable and produces immediate feedback (reliving our stress), we check our SNS repeatedly. Suddenly, we realize that we spend more than 2 hours staring at our smartphones but produce nothing.
 To end a bad habit we must make it:
-- invisible
-- unattractive
-- hard
-- unsatisfying
+
+    - invisible
+    - unattractive
+    - hard
+    - unsatisfying
+
 And to start a good habit, we can make it:
-- obvious
-- attractive
-- easy
-- satisfying
+
+    - obvious
+    - attractive
+    - easy
+    - satisfying
+
 That is the theory. But nothing will happen unless we take action.
 
 </div>
