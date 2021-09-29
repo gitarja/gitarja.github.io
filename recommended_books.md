@@ -14,8 +14,30 @@ permalink: /recommended_books/
 
 
 
-<!-- Think Again: The Power of Knowing What You Don't Know
+
+<div class="recommended_books">
+
+<!--Think Again: Lie With Me by Philippe Besson
 -->
+
+<div id="book">
+
+<div id="title">Lie With Me by Philippe Besson
+
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/lie_with_me.jpg"></div>
+
+<div id="book_summary">
+Do I need the courage to be myself? Or should I find a place that can accept who I am?
+We often deny ourselves as people around us threaten to marginalize us unless we follow and believe what they believe. Then we make terms with ourselves to pretend that we were born as another person and follow the expectation of people around us. And one day, we realize that we suffer for nothing since the people who judge use, keep judging us no matter how much our effort to please them.
+</div>
+
+</div>
+
+<hr>
+
 
 <div class="recommended_books">
 
