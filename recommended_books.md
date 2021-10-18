@@ -598,7 +598,7 @@ You must understand that you have to keep his secret and his pride by claiming n
 
 <!-- The second kind of impossible !-->
 
-<div id="book">
+<div id="book-long">
 
 <div id="title">The Second Kind of Impossible: The Extraordinary Quest for a New Form of Matter
 
