@@ -12,6 +12,14 @@ categories: english
 
 **Catchicken** is a serious game based on the Go/NoGo task that we utilized in our research to measured children's response and their gaze behavior during the task. The game represented the Go stimulus and NoGo stimulus as "cat" and "chicken" characters, respectively. So, a child should respond only when the cat appeared, but he must inhibit his action when the chicken appeared.
 
+**Note: **
+The CatChicken game was developed by utilizing the following assets from Unity Store:
+1. Bolt Kit: First Person ([Link](https://assetstore.unity.com/packages/templates/tutorials/bolt-kit-first-person-149467))
+2. 5 animated Voxel animals by VoxelGuy ([Link](https://assetstore.unity.com/packages/3d/characters/animals/5-animated-voxel-animals-145754))
+3. Effect textures and prefabs ([Link](https://assetstore.unity.com/packages/vfx/particles/effect-textures-and-prefabs-109031))
+
+
+
 ## What does matter with children's response and gaze behavior?
 Attention Deficit Hyperactive Disorder (ADHD) and Autism Spectrum Disorder (ASD) are examples of invisible disorder whose symptoms are often misinterpreted as willful misconduct or bad character [1]. The children with the disorder, however, need early intervention to mitigate the disorder symptoms.
 
