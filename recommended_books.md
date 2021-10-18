@@ -746,7 +746,7 @@ You must understand that you have to keep his secret and his pride by claiming n
 
 <!-- Educated !-->
 
-<div id="book">
+<div id="book-long">
 
 <div id="title">Bad Blood: Secrets and Lies in a Silicon Valley Startup</div>
 
