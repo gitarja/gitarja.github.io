@@ -14,6 +14,29 @@ permalink: /recommended_books/
 
 
 
+<div class="recommended_books">
+
+<!--Steal Like an Artist
+
+-->
+
+<div id="book">
+
+<div id="title">Steal Like an Artist
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/steal_like_an_artist.jpg"></div>
+
+<div id="book_summary">
+The is not a thing coming from nothing; things in this world are evolution results - copying from many sources results in originality. The previous generation affects the present people. Old ideas bring new ideas. Creativity is an art to copy from some things that are worthed to be copied. To create a novel idea is to copying old ideas and combine them.
+</div>
+
+</div>
+
+<hr>
+
+
 
 <div class="recommended_books">
 
