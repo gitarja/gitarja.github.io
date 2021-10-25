@@ -6,6 +6,7 @@ ttitle: Self Organizing Maps (Kohonen Networks)
 banner_post: "/assets/online-course.jpg"
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

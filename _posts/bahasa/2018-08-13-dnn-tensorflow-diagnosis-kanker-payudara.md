@@ -6,6 +6,7 @@ ttitle: DNN Menggunakan Tensorflow pada Kasus Diagnosis Kanker Payudara
 banner_post: "/assets/DataFitting.png"
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

@@ -6,6 +6,7 @@ ttitle: Simple Linear Regression Menggunakan Phyton
 banner_post: "/assets/DataFitting.png"
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 # Simple Linear Regression Menggunakan Phyton

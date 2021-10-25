@@ -5,6 +5,7 @@ date: 2017-03-26 12:56:54 +0000
 ttitle: Kernel Trick
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

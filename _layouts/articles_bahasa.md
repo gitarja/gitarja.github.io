@@ -1,16 +1,14 @@
----
-layout: default
----
+{% include header.html %}
 
-<div class="home">
-
-
-  {{ content }}
+<article>
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
 
   {%- if site.posts.size > 0 -%}
-<section class="archive-post-list">
 
-   {% for post in site.posts %}
+
+   {% for post in site.categories.bahasa %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
@@ -22,9 +20,14 @@ layout: default
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 
-</section>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+   
   {%- endif -%}
 
 </div>
+</div>
+</div>
+</article>
+
+{% include footer.html %}

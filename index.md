@@ -1,5 +1,7 @@
 ---
-title: Articles
-
-layout: articles_english
+layout: default
+pagination: 
+  enabled: true
 ---
+
+<!-- BLANK -->

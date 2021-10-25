@@ -6,6 +6,7 @@ ttitle: GUI Menggunakan Python dan QtDesigner
 banner_post: "/assets/online-course.jpg"
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

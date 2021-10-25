@@ -6,6 +6,7 @@ ttitle: Tensorflow
 banner_post: "/assets/tensorflow.jpg"
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

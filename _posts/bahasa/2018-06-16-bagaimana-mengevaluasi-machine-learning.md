@@ -5,6 +5,7 @@ date: 2018-06-16 12:56:54 +0000
 ttitle: Bagaimana Mengevaluasi Machine Learning?
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 Dalam mengevaluasi generalisai performa sebuah Machine Learning ada beberapa teknik yang dapat digunakan seperti: i. training dan testing; ii. k-fold cross validation.

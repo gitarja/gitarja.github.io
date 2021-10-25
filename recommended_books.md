@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: inner
 
 title: Recommended Books
 

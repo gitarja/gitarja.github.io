@@ -1,11 +1,15 @@
 ---
-title: Catchicken a Serious Game Based on Go/NoGo Task
-undefined: SUB TITLE
-date: 2020-10-09 12:56:54 +0000
-ttitle: Catchicken A serious Game Based on Go/NoGo Task
-tag: []
-categories: english
-
+layout: inner
+position: left
+title: Catchicken Game
+date: 2016-02-20 15:56:00
+categories: project
+tags: Unity Machine-Learning Eye-tracker Phyton
+featured_image: '/assets/attention_test/Game-interface.png'
+project_link: 'http://github.com/jamigibbs/weathercast'
+button_icon: 'github'
+button_text: 'Visit Project'
+lead_text: 'Catchicken a Serious Game Based on Go/NoGo Task'
 ---
 
 ## What is Catchicken?

@@ -5,6 +5,7 @@ date: 2019-07-18 15:19:54 +0000
 ttitle: Implementasi Alex Net Menggunakan Tensorflow dengan Eager Execution
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

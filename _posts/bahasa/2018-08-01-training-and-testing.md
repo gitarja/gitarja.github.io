@@ -6,6 +6,7 @@ ttitle: Training and Testing
 banner_post: "/assets/online-course.jpg"
 tag: []
 categories: bahasa
+layout: inner
 
 ---
 

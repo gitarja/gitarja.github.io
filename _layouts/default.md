@@ -1,20 +1,38 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include header.html %}
 
-  {%- include head.html -%}
+    {% include home-hero.html %}
 
-  <body>
+    <main id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
 
-    {%- include header.html -%}
+            {% if site.section_title != '' %}
+            <h2 class="section-title text-center">{{ site.section_title }}</h2>
+            {% endif %}
+            {% if site.section_subtitle != '' %}
+            <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
+            {% endif %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+            <div class="break"></div>
+
+            {% for post in paginator.posts %}
+              <div class="wow fadeIn">
+              {% if post.position == "left" %}
+                {% include content-left.html %}
+              {% endif %}
+
+              {% if post.position == "right" %}
+                {% include content-right.html %}
+              {% endif %}
+              </div>
+            {% endfor %}
+
+            {% include pagination.html %}
+
+          </div>
+        </div>
       </div>
     </main>
 
-    {%- include footer.html -%}
-
-  </body>
-
-</html>
+{% include footer.html %}
