@@ -20,15 +20,14 @@ description: >- # this means to ignore newlines until "baseurl:"
    Hi, I am Prasetia. Children's behavior researchers who learns to draw!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gitarja.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-future: true
+twitter_username: 'toya1292'
+github_username: 'gitarja'
+medium_username: ''
 
 # Build settings
 repository: gitarja/gitarja.github.io
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-paginate-v2
 include:
   - "_uploads"
@@ -69,7 +68,7 @@ pagination:
   sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'posts'
+  category: 'project'
 
   # Optional, the default tag to use, omit to disable
   tag: ''
@@ -97,7 +96,7 @@ pagination:
 ### Phantom settings
 footer_text: '© 2021 Prasetia Utama (Phantom Jekyll theme by Jami Gibbs)'
 admin_name: 'Prasetia Utama'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+google_analytics: "UA-210993229-2" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
