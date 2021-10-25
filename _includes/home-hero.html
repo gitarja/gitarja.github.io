@@ -7,13 +7,15 @@
       <div class="hero-container">
 
         <div class="hero-content">
-
+		<div id="about-me" class="wow bounceInDown">
 		  {% if site.profile_image != '' %}
 		  <img src="{{site.profile_image}}" id="profile_image" />
         
           {% endif %}
           {% if site.title != '' %}
+		  
           <h1 class="text-center">{{site.title}}</h1>
+		  </div>
           {% endif %}
 
           {% if site.description != '' or site.enable_contact == true %}
