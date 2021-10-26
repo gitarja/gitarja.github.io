@@ -16,7 +16,7 @@
 
             <div class="break"></div>
 
-            {% for post in paginator.posts %}
+            {% for post in site.categories.project %}
               <div class="wow fadeIn">
               {% if post.position == "left" %}
                 {% include content-left.html %}
