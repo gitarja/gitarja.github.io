@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gitarja.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'toya1292'
 github_username: 'gitarja'
-medium_username: ''
+linkedin_username: 'pras-utama-15781a11a'
 
 # Build settings
 repository: gitarja/gitarja.github.io

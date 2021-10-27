@@ -2,7 +2,7 @@
 layout: inner
 position: left
 title: Catchicken Game
-date: 2016-02-20 15:56:00
+date: 2021-02-20 15:56:00
 categories: project
 tags: Unity Machine-Learning Eye-tracker Phyton
 featured_image: '/assets/attention_test/Game-interface.png'

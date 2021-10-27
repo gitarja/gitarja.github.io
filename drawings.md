@@ -4,9 +4,9 @@ title: Drawings
 permalink: /drawings/
 ---
 
-When Covid-19 pandemic started I felt stressed and started looking for new hobbies. I end up learning to draw with pencils.
+> When Covid-19 pandemic started I felt stressed and started looking for new hobbies. I end up learning to draw with pencils. **Hope that you love some of them !!**
 
-Hope that you love some of them.4
+
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
