@@ -16,6 +16,32 @@ permalink: /recommended_books/
 
 <div class="recommended_books">
 
+<!--How to Win an Argument: An Ancient Guide to the Art of Persuasion
+
+
+-->
+
+<div id="book">
+
+<div id="title">How to Win an Argument: An Ancient Guide to the Art of Persuasion
+
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/win_an_argument.jpg"></div>
+
+<div id="book_summary">
+Eloquent speech contains logical thinking, emotional pitch, and prepared text. The art of public speaking requires someone to focus on arranging the content of their speech and thinking up how to deliver it. Also, one must bear in mind that eloquent speech does not start from practicing speaking but from writing broad and immense topics, which help us think logically and reflect on what we are going to say.
+</div>
+
+</div>
+
+<hr>
+
+
+
+<div class="recommended_books">
+
 <!--Steal Like an Artist
 
 -->
@@ -29,12 +55,14 @@ permalink: /recommended_books/
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/steal_like_an_artist.jpg"></div>
 
 <div id="book_summary">
-The is not a thing coming from nothing; things in this world are evolution results - copying from many sources results in originality. The previous generation affects the present people. Old ideas bring new ideas. Creativity is an art to copy from some things that are worthed to be copied. To create a novel idea is to copying old ideas and combine them.
+There is not a thing coming from nothing; things in this world are evolution results - copying from many sources results in originality. The previous generation affects the present people. Old ideas bring new ideas. Creativity is an art to copy from some things that are worthed to be copied. To create a novel idea is to copy old ideas and combine them.
+
 </div>
 
 </div>
 
 <hr>
+
 
 
 
