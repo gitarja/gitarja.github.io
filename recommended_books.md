@@ -16,6 +16,29 @@ permalink: /recommended_books/
 
 <div class="recommended_books">
 
+<!--Stillness Is the Key
+
+-->
+
+<div id="book">
+
+<div id="title">Stillness Is the Key
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/stillness.jpg"></div>
+
+<div id="book_summary">
+We achieve stillness and resilience by taking care of our mind, soul, and body. We must remember that those three components are a single connected entity, in which turbulence in one component affects the stability of the whole system. Maintaining a mind requires us to seek out knowledge and wisdom, while that of the soul asks us to be aware of our limitations and be humble towards others and ourselves. Lastly, the body should be treated as a living organism that demands nutrition, love, and rest; so it can grow and reaches its potential. Preserving those three things can be achieved in many ways, but it must be started by understanding ourselves.
+</div>
+
+</div>
+
+<hr>
+
+
+<div class="recommended_books">
+
 <!--How to Win an Argument: An Ancient Guide to the Art of Persuasion
 
 
