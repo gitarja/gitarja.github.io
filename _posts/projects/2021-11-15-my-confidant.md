@@ -52,11 +52,11 @@ Before we begin this interview, would you mind if I take audio of this interview
 I want you to know that this is not a test, so there are no right or wrong answers in this interview. If you have any questions, I will be happy to hear about them. I will use this interview to design an app to find therapists and arrange schedule with them.
 
 
-Screener questions:
+** Basic questions:**
 - Have you experienced stressful conditions that affect your well-being? (e.g., you cannot sleep because of work pressure)
 - Have you had in your mind to go to a therapist?
 
-Interview questions:
+**Interview questions:**
 1. Would you mind sharing with me about your stressful condition?
 2. Did you ever go to a therapist to discuss your mental health condition?
 	- Yes: How do you find and why do you choose that therapist?
