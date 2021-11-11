@@ -16,6 +16,29 @@ permalink: /recommended_books/
 
 <div class="recommended_books">
 
+<!--Storytelling with Data: A Data Visualization Guide for Business Professionals
+
+-->
+
+<div id="book">
+
+<div id="title">Storytelling with Data: A Data Visualization Guide for Business Professionals
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/story_telling_data.jpg"></div>
+
+<div id="book_summary">
+When creating a graph, first you must define your audiences. Then, you decide what you want they know or do after the listen to your presentation. Last, you plan how you achieve that. Without those preparations, the graph you present to your audience will only show data, telling no meaningful story. Also, you must keep in mind that your audiences have limited attention and capacity to digest information. So do not clutter the message you want to convey with unnecessary information.
+</div>
+
+</div>
+
+<hr>
+
+
+<div class="recommended_books">
+
 <!--Stillness Is the Key
 
 -->

@@ -10,9 +10,9 @@ permalink: /publications/
 
 ### **Identifying Autism Spectrum Disorder Symptoms Using Response and Gaze Behavior during the Go/NoGo Game CatChicken**
 
-[pdf][<a href="https://github.com/gitarja/AttentionAnalysis">source code</a>]
+[<a href="https://www.nature.com/articles/s41598-021-01050-7">pdf</a>][<a href="https://github.com/gitarja/AttentionAnalysis">source code</a>]
 
-**Under Revision in Scientific Reports**
+**Nature: Scientific Reports**
 
 **Abstract:** Previous studies have found that Autism Spectrum Disorder (ASD) children scored lower during a Go/No-Go task and faced difficulty focusing their gaze on the speaker's face during a conversation. To date, however, there has not been an adequate study examining children's response and gaze during the Go/No-Go task to distinguish ASD from typical children. We investigated typical and ASD children's gaze modulation when they played a version of the Go/No-Go game. The proposed system represents the Go and the No-Go stimuli as chicken and cat characters, respectively. It tracks children's gaze using an eye tracker mounted on the monitor. Statistically significant between-group differences in spatial and auto-regressive temporal gaze-related features for 21 ASD and 31 typical children suggest that ASD children had more unstable gaze modulation during the test. Using the features that differ significantly as inputs, the AdaBoost meta-learning algorithm attained an accuracy rate of 88.6% in differentiating the ASD subjects from the typical ones.
 
