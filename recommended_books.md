@@ -13,6 +13,28 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+<div class="recommended_books">
+
+<!--The Black Swan: The Impact of the Highly Improbable
+
+-->
+
+<div id="book">
+
+<div id="title">The Black Swan: The Impact of the Highly Improbable
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/black_swan.jpg"></div>
+
+<div id="book_summary">
+We observe the past and predict the future as if we know we would be at our place now. We forget we often failed to predict what is going to happen, for this world is uncertain. Our brain works by predicting immediate events, which are going to occur in our environment, so we can prepare for any unexpected accident. The problem is we project this ability to recognize immediate events to predict the future of this perplexed life; without realizing that many factors affect it. In brief, we fool ourselves by believing that this life is certain. We ignore silent evidences and assume that cause-and-effect law rules everything in this world.
+</div>
+
+</div>
+
+<hr>
+
 
 <div class="recommended_books">
 
