@@ -31,6 +31,7 @@ permalink: /recommended_books/
 We observe the past and predict the future as if two years ago we knew we would be in our current place. We forget we often failed to predict what is going to happen, for this world is uncertain. Our brain works by predicting imminent events, which are going to occur in our environment, so we can prepare to respond to those events. The problem is we project this ability to recognize coming events to predict the future of this perplexed life; without realizing that many factors affect it. In brief, we fool ourselves by believing that this life is certain. We ignore silent evidences and assume that cause-and-effect law rules everything in this world.
 </div>
 
+</div>
 <hr>
 
 
