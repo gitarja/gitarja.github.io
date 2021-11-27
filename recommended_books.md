@@ -19,7 +19,7 @@ permalink: /recommended_books/
 
 -->
 
-<div id="book">
+<div id="book-long">
 
 <div id="title">The Black Swan: The Impact of the Highly Improbable
 
@@ -28,7 +28,7 @@ permalink: /recommended_books/
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/black_swan.jpg"></div>
 
 <div id="book_summary">
-We observe the past and predict the future as if two years ago we knew we would be in our current place. We forget we often failed to predict what is going to happen, for this world is uncertain. Our brain works by predicting immediate events, which are going to occur in our environment, so we can prepare for any unexpected accident. The problem is we project this ability to recognize immediate events to predict the future of this perplexed life; without realizing that many factors affect it. In brief, we fool ourselves by believing that this life is certain. We ignore silent evidences and assume that cause-and-effect law rules everything in this world.
+We observe the past and predict the future as if two years ago we knew we would be in our current place. We forget we often failed to predict what is going to happen, for this world is uncertain. Our brain works by predicting imminent events, which are going to occur in our environment, so we can prepare to respond to those events. The problem is we project this ability to recognize coming events to predict the future of this perplexed life; without realizing that many factors affect it. In brief, we fool ourselves by believing that this life is certain. We ignore silent evidences and assume that cause-and-effect law rules everything in this world.
 </div>
 
 <hr>
