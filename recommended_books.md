@@ -19,7 +19,7 @@ permalink: /recommended_books/
 
 -->
 
-<div id="book-long">
+<div id="book">
 
 <div id="title">The Black Swan: The Impact of the Highly Improbable
 
