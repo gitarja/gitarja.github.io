@@ -13,6 +13,28 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+
+<div class="recommended_books">
+
+<!--Seven and a Half Lessons About the Brain-->
+
+<div id="book">
+
+<div id="title">Seven and a Half Lessons About the Brain
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/seven_half_brain.jpg"></div>
+
+<div id="book_summary">
+Our brain grows not to make us a better thinker, but to make us a tougher survivor. As human, we often think we are superior to other creatures because of our brain. In fact, our brain is like that of many other animals. What differentiates between us and them is our ability to project our imagination to the physical world. When we find a shelter with abundant resources, we make it as our home. Then, we invite other people as our family to enjoy the fortune. Next, we believe it bond us as a unit and think that it is our obligation to defend that shelter from others.
+
+</div>
+
+</div>
+<hr>
+
+
 <div class="recommended_books">
 
 <!--The Black Swan: The Impact of the Highly Improbable
