@@ -51,7 +51,7 @@ We also display the detail of the user performance and his gaze area for every m
 ## What have we found until now?
 We observed two interesting findings in our preliminary results involving healthy 59 participants [4]. First, we found that participants tend to **react faster when they responded incorrectly towards the NoGo stimulus**. The variance of the response time was also higher compared to when they responded correctly towards the Go stimulus. Second, we noticed a positive relationship between participants' gaze area and their response time and response time variance. In brief, the participants with **a bigger gaze area tended to respond slower with higher variance**.
 
-{% include image.html url="/assets/attention_test/Correlation_table.png" description="<b>Fig 2.</b> The average of response time and respons time variance." %}
+{% include image.html url="/assets/attention_test/Results-RT-RTVar-Gaze.png" description="<b>Fig 2.</b> Correlation between Gaze trajectory area (y-axis) and RT and RT-var." %}
 
 In addition, our clustering results with K-means suggested that there may be two groups among the participants. The first group was the subjects who respond **faster and more stable**.
 

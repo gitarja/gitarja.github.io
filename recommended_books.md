@@ -13,6 +13,26 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+<div class="recommended_books">
+
+<!--The Dutch House-->
+
+<div id="book">
+
+<div id="title">The Dutch House
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/dutch_house.jpg"></div>
+
+<div id="book_summary">
+We often hate and love someone whom we never know, sympathize with persons who never exist, feel belonged to people living in our imagination. In fact, we do those because of words.
+
+</div>
+
+</div>
+<hr>
+
 
 <div class="recommended_books">
 
