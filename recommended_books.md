@@ -26,7 +26,7 @@ permalink: /recommended_books/
 <div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/dutch_house.jpg"></div>
 
 <div id="book_summary">
-We often hate and love someone whom we never know, sympathize with persons who never exist, feel belonged to people living in our imagination. In fact, we do those because of words.
+We often hate and love someone whom we never know, sympathize with persons who never exist, feel belonged to people living in our imagination. In fact, we do those things because of words.
 
 </div>
 
