@@ -13,6 +13,27 @@ permalink: /recommended_books/
 # I read one to two books in a month. These are some of them that I recommend to you!
 
 
+
+<div class="recommended_books">
+
+<!--The Midnight Library-->
+
+<div id="book">
+
+<div id="title">The Midnight Library
+
+
+</div>
+
+<div id="book_img"><img width="200px" height="auto" src="/assets/recommended_books/midnight_library.jpg"></div>
+
+<div id="book_summary">
+We often regret about the offers we never take, the people we never take, the love we cannot keep, and decisions we do not choose. We believe our current life would be better if we chose or did something differently; if we said yes to another option; if we did another job; or if we loved someone else. Yet, we should realize that the prison is not the place, but the perspective. We may still find the same despair and regret when living with another person in another life that we often imagine about; if we cannot see this world differently. So, we must decide what and how our life is going to be, and strive to reach that point.Every rejection that we get is a redirection that we must take to arrive at our final destination.
+</div>
+
+</div>
+<hr>
+
 <div class="recommended_books">
 
 <!--The Dutch House-->
