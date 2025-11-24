@@ -1,0 +1,6 @@
+---
+title: "Mechanism of coordination"
+excerpt: "Reverse-engineering mechanism of coordination<br/><img src='/images/Portfolio/Coordination/main.png'>"
+collection: portfolio
+---
+This project investigates what makes two individuals coordinate successfully in fast-paced, real-world interactive tasks by combining high-resolution eye tracking, motion capture, heart-rate monitoring, machine learning, and Bayesian modeling. Using a turn-taking ball-hitting task, the study shows that coordination success depends less on demographics or physical activity and more on how similarly partners anticipate upcoming events, especially through their anticipatory eye movements. Well-coordinated pairs display aligned predictive styles, proactive gaze behavior, and better control of the ball’s timing and trajectory. By reverse-engineering behavioral signatures, the project identifies alignment in action anticipation—not just individual skill—as the key mechanism of effective human–human and human–robot coordination.

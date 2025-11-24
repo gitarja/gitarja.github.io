@@ -1,0 +1,6 @@
+---
+title: "Diagnostic support system to identify ASD symptoms in children"
+excerpt: "A child-friendly system using behavioral data and interpretable AI to help detect early signs of developmental disorders.<br/><img src='/images/Portfolio/Diagnostic-system/main.png'>"
+collection: portfolio
+---
+This project develops a non-invasive, quantitative diagnostic support system to help identify early symptoms of developmental disorders such as ASD and ADHD in children. It integrates two complementary components: a group-level behavioral monitoring system that uses multiple RGB-D cameras to track children’s natural play activity and social interaction in nursery environments, and an individual-level assessment using a game-based Go/NoGo task with eye tracking to measure response inhibition, reaction-time variability, and gaze modulation. By extracting behavioral, spatial, and gaze-adjustment features from both settings, the system applies Deep Distance Learning to evaluate how similar a child’s behavior is to typical or high-risk groups, and uses SHAP values to provide interpretable, evidence-based explanations for clinicians. Together, these components offer a child-friendly, scalable, and interpretable tool to support psychiatrists in identifying developmental disorder symptoms at an early stage.

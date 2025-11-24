@@ -1,0 +1,6 @@
+---
+title: "Multimodal affect recognition (in collaboration with Yamaha Motor Company)"
+excerpt: "Estimating valence and arousal using multimodal physiological signals<br/><img src='/images/Portfolio/Affect-recognition/main.png'>"
+collection: portfolio
+---
+This project develops a real-time affect recognition system for motorcycle drivers using multimodal biosignals such as ECG, EEG, EDA, respiration, and PPG. The system first trains a high-accuracy “teacher model” on the full set of biosignals using an autoencoder and ensemble learning, achieving over 90% accuracy in classifying arousal and valence states. To make the system practical for real driving environments—where only ECG can be reliably recorded—a “student model” is trained using knowledge distillation, allowing it to learn from the teacher model’s predictions even though it only receives ECG as input. Experiments with 28 participants watching emotion-inducing VR videos confirmed that the multimodal teacher model provides highly accurate emotion estimation, and that the ECG-only student model still performs better than traditional approaches, demonstrating the feasibility of emotion recognition in realistic driving settings.
